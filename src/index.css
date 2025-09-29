@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
 }
 
 body {
@@ -22,7 +23,7 @@ body {
   left: 0;
   right: 0;
   height: 80px;
-  background: #ffec95;
+  background: #fcfcfc;
   z-index: 1000;
 }
 .header-container {
@@ -36,16 +37,22 @@ body {
 }
 
 h1 {
-  font-size: 24px;
-  font-weight: 600;
-  color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  color: #154cb3;
   font-weight: bolder;
   margin: 0;
 }
+h2, h3, h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .footer {
-  background: #ffe77f;
-  padding: 15px 0 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fcfcfc;
+  padding: 15px 0 5px 0;
   margin-top: auto;
 }
 .footer-container {
@@ -56,23 +63,28 @@ h1 {
 .footer-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 340px;
-  margin-bottom: 40px;
+  gap: 300px;
+  margin-bottom: 10px;
 }
 .footer-section h3 {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: bold;
   margin-bottom: 16px;
-  color: #000000;
+  color: #154cb3;;
 }
 .footer-section p {
   color: #414141;
   line-height: 1.6;
   margin: 8px 0;
 }
+.footer-section a {
+  color: #666666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
 .footer-nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 8px;
 }
 .footer-nav a {
@@ -84,10 +96,9 @@ h1 {
   color: #ff00bb;
 }
 .footer-bottom {
-  padding-top: 20px;
-  border-top: 1px solid #e5e5e5;
+  padding-top: 1px;
   text-align: center;
-  color: #666666;
+  color: #333232;
   font-size: 14px;
 }
 
@@ -97,10 +108,10 @@ h1 {
   gap: 48px;
 }
 .navbar a {
-  color: #000000;
-  font-weight: bold;
+  color: #154cb3;
+  font-weight: bolder;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   padding: 8px 0;
   transition: color 0.2s ease;
