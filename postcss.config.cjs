@@ -1,5 +1,6 @@
-/* eslint-disable */
 module.exports = {
-    tailwindcss: {},
-    autoprefixer: {},
-};
+  plugins: [
+    require('@tailwindcss/postcss'),
+    require('autoprefixer'),
+  ],
+}
