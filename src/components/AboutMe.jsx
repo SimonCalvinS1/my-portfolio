@@ -16,10 +16,10 @@ function AboutMe() {
           </div>
 
           {/* About Content */}
-          <div className="space-y-3">
-            <h3 className="text-2xl font-semibold text-gray-800">
-              Hello, <p className="text-blue-700">I'm Simon Calvin S!</p>
-            </h3>
+          <div className="space-y-2">
+            <header className="text-2xl font-semibold text-gray-800">
+              Hello, <p className="text-blue-700">I am Simon Calvin S!</p>
+            </header>
             <p className="text-gray-600 leading-relaxed">
               I'm a passionate web developer with expertise in React, Node.js, and modern web technologies. 
               With a strong foundation in both frontend and backend development, I create engaging and 
@@ -32,13 +32,13 @@ function AboutMe() {
             
             {/* Skills */}
             <div className="pt-4">
-              <h4 className="text-lg font-semibold text-gray-800 mb-2">My Skills</h4>
+              <header className="text-xl text-blue-700 font-extrabold leading-relaxed">My Skills</header>
               <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Full Stack Web Development</span>
-                <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Mobile App Development</span>
-                <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Database Management</span>
-                <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Data Structures and Algorithms</span>
-                <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">Cross-Team Collaboration</span>
+                <span className="px-3 py-1 bg-red-200 text-black-600 rounded-full text-sm">Full Stack Web Development</span>
+                <span className="px-3 py-1 bg-yellow-100 text-brown-600 rounded-full text-sm">Mobile App Development</span>
+                <span className="px-3 py-1 bg-blue-100 text-black-600 rounded-full text-sm">Database Management</span>
+                <span className="px-3 py-1 bg-pink-200 text-black-600 rounded-full text-sm">Data Structures and Algorithms</span>
+                <span className="px-3 py-1 bg-orange-200 text-black-600 rounded-full text-sm">Cross-Team Collaboration</span>
               </div>
             </div>
           </div>
