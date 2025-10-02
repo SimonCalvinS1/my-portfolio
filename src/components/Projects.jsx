@@ -68,7 +68,7 @@ function Projects() {
                   {project.tech.map((tech, index) => (
                     <span 
                       key={index}
-                      className="px-3 py-1 bg-pink-300 text-black text-sm rounded-full"
+                      className="px-3 py-1 bg-[#154cb3] text-white text-sm rounded-full"
                     >
                       {tech}
                     </span>
@@ -78,7 +78,7 @@ function Projects() {
                 <div className="flex gap-2 mt-auto"> {/* Added mt-auto */}
                   <a 
                     href={project.github}
-                    className="flex-1 text-center py-2 bg-gray-900 text-white rounded hover:bg-gray-800 transition-colors"
+                    className="flex-1 text-center py-2 bg-gray-600 text-white rounded hover:bg-gray-800 transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -86,7 +86,7 @@ function Projects() {
                   </a>
                   <a 
                     href={project.live}
-                    className="flex-1 text-center py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+                    className="flex-1 text-center py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

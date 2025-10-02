@@ -23,16 +23,13 @@ function AboutMe() {
             <p className="text-gray-600 leading-relaxed">
               I'm a passionate web developer with expertise in React, Node.js, and modern web technologies. 
               With a strong foundation in both frontend and backend development, I create engaging and 
-              user-friendly web applications. 
-            </p>
-            <p className="text-gray-600 leading-relaxed">
-              I also have experience with databases like MySQL and Supabase.
+              user-friendly web applications. I have experience working with MySQL and Supabase databases.
               When I'm not working with websites, I enjoy exploring data analytics and machine learning.
             </p>
             
             {/* Skills */}
             <div className="pt-4">
-              <header className="text-xl text-green-900 font-extrabold leading-relaxed">My Skills</header>
+              <header className="text-xl text-green-900 font-extrabold leading-relaxed">Area of Expertise</header>
               <div className="flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-red-200 text-red-700 rounded-full text-sm leading-relaxed">Full Stack Web Development</span>
                 <span className="px-3 py-1 bg-yellow-200 text-red-700 rounded-full text-sm leading-relaxed">Mobile App Development</span>
