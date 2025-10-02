@@ -32,13 +32,13 @@ function AboutMe() {
             
             {/* Skills */}
             <div className="pt-4">
-              <header className="text-xl text-blue-700 font-extrabold leading-relaxed">My Skills</header>
+              <header className="text-xl text-green-900 font-extrabold leading-relaxed">My Skills</header>
               <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-red-200 text-black-600 rounded-full text-sm">Full Stack Web Development</span>
-                <span className="px-3 py-1 bg-yellow-100 text-brown-600 rounded-full text-sm">Mobile App Development</span>
-                <span className="px-3 py-1 bg-blue-100 text-black-600 rounded-full text-sm">Database Management</span>
-                <span className="px-3 py-1 bg-pink-200 text-black-600 rounded-full text-sm">Data Structures and Algorithms</span>
-                <span className="px-3 py-1 bg-orange-200 text-black-600 rounded-full text-sm">Cross-Team Collaboration</span>
+                <span className="px-3 py-1 bg-red-200 text-red-700 rounded-full text-sm leading-relaxed">Full Stack Web Development</span>
+                <span className="px-3 py-1 bg-yellow-200 text-red-700 rounded-full text-sm leading-relaxed">Mobile App Development</span>
+                <span className="px-3 py-1 bg-blue-200 text-red-700 rounded-full text-sm leading-relaxed">Database Management</span>
+                <span className="px-3 py-1 bg-pink-200 text-red-700 rounded-full text-sm leading-relaxed">Data Structures and Algorithms</span>
+                <span className="px-3 py-1 bg-orange-200 text-red-700 rounded-full text-sm leading-relaxed">Cross-Team Collaboration</span>
               </div>
             </div>
           </div>
