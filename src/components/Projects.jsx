@@ -75,7 +75,7 @@ function Projects() {
                   ))}
                 </div>
                 
-                <div className="flex gap-2 mt-auto"> {/* Added mt-auto */}
+                <div className="flex gap-10 mt-auto"> {/* Added mt-auto */}
                   <a 
                     href={project.github}
                     className="flex-1 text-center py-2 bg-gray-600 text-white rounded hover:bg-gray-800 transition-colors"

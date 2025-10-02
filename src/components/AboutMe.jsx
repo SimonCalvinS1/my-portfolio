@@ -7,7 +7,7 @@ function AboutMe() {
         <div className="grid md:grid-cols-2 gap-2 items-center">
           {/* About Content */}
           <div className="space-y-2">
-            <header className="text-2xl font-semibold text-gray-800">
+            <header className="text-2xl font-semibold text-blue-700">
               Hello, <p className="text-blue-700">I am Simon Calvin S.</p>
             </header>
             <p className="px-3 text-gray-600">
@@ -19,7 +19,7 @@ function AboutMe() {
             
             {/* Area of Expertise */}
             <div className="pt-4">
-              <header className="text-xl text-green-800 font-extrabold leading-relaxed">Area of Expertise: </header>
+              <header className="text-xl text-blue-700 font-extrabold leading-relaxed">Area of Expertise: </header>
               <div className="px-2 flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-cyan-500 text-white rounded-full text-sm leading-relaxed">Full Stack Web Development</span>
                 <span className="px-3 py-1 bg-yellow-600 text-white rounded-full text-sm leading-relaxed">Mobile App Development</span>

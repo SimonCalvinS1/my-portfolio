@@ -2,17 +2,33 @@ import React from 'react';
 
 function Heading() {
   return (
-    <header className="header">
-      <div className="header-container">
-        <h1>Simon Calvin S</h1>
-        <nav className="navbar">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#experience">Experience</a>
-          <a href="#education">Education</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-          <a href="#blog">Blog</a>
+    <header className="fixed top-0 left-0 right-0 h-20 bg-[#fcfcfc] z-[1000]">
+      <div className="max-w-7xl mx-auto h-full flex justify-between items-center px-8">
+        <h1 className="text-[25px] text-[#154cb3] font-bold font-['DM_Sans']">
+          Simon Calvin S
+        </h1>
+        <nav className="flex items-center gap-12">
+          <a href="#about" className="text-[#154cb3] text-lg font-medium hover:text-[#00ffbb] transition-colors duration-200">
+            About
+          </a>
+          <a href="#skills" className="text-[#154cb3] text-lg font-medium hover:text-[#00ffbb] transition-colors duration-200">
+            Skills
+          </a>
+          <a href="#experience" className="text-[#154cb3] text-lg font-medium hover:text-[#00ffbb] transition-colors duration-200">
+            Experience
+          </a>
+          <a href="#education" className="text-[#154cb3] text-lg font-medium hover:text-[#00ffbb] transition-colors duration-200">
+            Education
+          </a>
+          <a href="#projects" className="text-[#154cb3] text-lg font-medium hover:text-[#00ffbb] transition-colors duration-200">
+            Projects
+          </a>
+          <a href="#contact" className="text-[#154cb3] text-lg font-medium hover:text-[#00ffbb] transition-colors duration-200">
+            Contact
+          </a>
+          <a href="#blog" className="text-[#154cb3] text-lg font-medium hover:text-[#00ffbb] transition-colors duration-200">
+            Blog
+          </a>
         </nav>
       </div>
     </header>
