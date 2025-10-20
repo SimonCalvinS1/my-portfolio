@@ -21,12 +21,12 @@ function AboutMe() {
             <div className="pt-4">
               <header className="text-xl text-blue-700 font-extrabold leading-relaxed">Area of Expertise: </header>
               <div className="px-2 flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-cyan-500 text-white rounded-full text-sm leading-relaxed">Full Stack Web Development</span>
-                <span className="px-3 py-1 bg-yellow-600 text-white rounded-full text-sm leading-relaxed">Mobile App Development</span>
-                <span className="px-3 py-1 bg-blue-400 text-white rounded-full text-sm leading-relaxed">Database Management</span>
-                <span className="px-3 py-1 bg-pink-400 text-white rounded-full text-sm leading-relaxed">Data Structures and Algorithms</span>
-                <span className="px-3 py-1 bg-orange-400 text-white rounded-full text-sm leading-relaxed">Python Programming</span>
-                <span className="px-3 py-1 bg-cyan-400 text-white rounded-full text-sm leading-relaxed">Cross-Team Collaboration</span>
+                <span className="px-3 py-1 bg-gray-600 text-white rounded-full text-sm leading-relaxed">MERN Stack Web Developer</span>
+                <span className="px-3 py-1 bg-gray-600 text-white rounded-full text-sm leading-relaxed">Mobile App Developer</span>
+                <span className="px-3 py-1 bg-gray-600 text-white rounded-full text-sm leading-relaxed">Database Management</span>
+                <span className="px-3 py-1 bg-gray-600 text-white rounded-full text-sm leading-relaxed">Data Structures and Algorithms</span>
+                <span className="px-3 py-1 bg-gray-600 text-white rounded-full text-sm leading-relaxed">Python Programming</span>
+                <span className="px-3 py-1 bg-gray-600 text-white rounded-full text-sm leading-relaxed">Cross-Team Collaboration</span>
               </div>
             </div>
           </div>
