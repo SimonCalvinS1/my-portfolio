@@ -9,9 +9,6 @@ function Heading() {
           <a href="#about" className="text-white hover:text-orange-300">
             About
           </a>
-          <a href="#skills" className="text-white hover:text-orange-300">
-            Skills
-          </a>
           <a href="#experience" className="text-white hover:text-orange-300">
             Experience
           </a>
