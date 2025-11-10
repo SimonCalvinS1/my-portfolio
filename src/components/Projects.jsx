@@ -4,61 +4,56 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "SOCIO",
-      description: "Built mobile and web full-stack apps for event registration at CHRIST",
-      tech: ["Next.js", "Node.js", "Flutter", "Supabase"],
-      github: "#",
-      live: "#"
+      title: "SOCIO - Event Registration at CHRIST",
+      description: "Built both mobile and web full-stack apps (prototypes) for online event registration at CHRIST Central Campus",
+      tech: ["Flutter", "Node.js", "Supabase"],
+      link: "#",
     },
     {
       id: 2,
-      title: "Explore Shanti Nagar",
-      description: "A transport-guide of Shanti Nagar involving places to visit in and around",
+      title: "Explore Shanti Nagar - A Tourist Guide",
+      description: "A transport-guide website of Shanti Nagar involving places to visit in and around Shanti Nagar in places like Double Road, Lakkasandra, etc",
       tech: ["MERN Stack", "Tailwind CSS"],
-      github: "#",
-      live: "#"
+      link: "#",
     },
     {
       id: 3,
-      title: "Aqua Manage",
-      description: "Description of project three. Explain the key features and technologies used.",
+      title: "Aqua Manage - Fish Health (Ongoing)",
+      description: "A web application to monitor and manage fish health in aquaculture farms using data analytics.",
       tech: ["Next.js", "TypeScript"],
-      github: "#",
-      live: "#"
+      link: "#",
     },
     {
       id: 4,
-      title: "Eat Journey",
-      description: "A brief description of project four. Explain the key features and technologies used.",
-      tech: ["React Native", "Node.js", "MongoDB"],
-      github: "#",
-      live: "#"
+      title: "EatJourney - Calories Regulator (Ongoing)",
+      description: "A cross-platform app to help users track and regulate their calorie intake and diet plans.",
+      tech: ["React Native", "Node.js"],
+      link: "#",
     },
     {
       id: 5,
-      title: "Data Analysis",
-      description: "A brief description of project five. Explain the key features and technologies used.",
+      title: "International Debt Analysis (Ongoing)",
+      description: "A data analysis project to visualise and gather useful information and perform meaning operations on it.",
       tech: ["Python"],
-      github: "#",
-      live: "#"
+      link: "#",
     }
   ];
 
     return (
-    <section id="projects" className="py-10 mb-20"> {/* Added margin bottom */}
-      <div className="max-w-6xl mx-auto px-3">
-        <header className="text-2xl text-center text-blue-900 font-extrabold">My Projects</header>
+    <section className="py-10 bg-gray-50"> {/* Added margin bottom */}
+      <div className="mx-auto px-3">
+        <header className="text-3xl text-center text-blue-800 font-semibold mb-4">My Projects</header>
         <br />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-15">
           {projects.map((project) => (
-            <div key={project.id} className="bg-[#f0f0ff] rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+            <div key={project.id} className="bg-[#f0f0f0] rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <div className="p-6 flex flex-col flex-grow"> {/* Added flex and flex-grow */}
                 <h3 className="text-2xl text-blue-700 font-bold">{project.title}</h3>
-                <div className="flex flex-wrap gap-2 mb-4 mt-2">
+                <div className="flex flex-wrap gap-2 mb-2 mt-1">
                   {project.tech.map((tech, index) => (
                     <span 
                       key={index}
-                      className="px-3 py-1 bg-[#154cb3] text-white text-sm rounded-full"
+                      className="px-4 py-1 bg-[#154cb3] text-white text-sm mt-2 rounded-full"
                     >
                       {tech}
                     </span>
@@ -70,6 +65,7 @@ function Projects() {
           ))}
         </div>
       </div>
+      <p id='certifications'></p>
     </section>
   );
 }
