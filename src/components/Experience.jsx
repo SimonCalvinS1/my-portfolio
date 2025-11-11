@@ -22,7 +22,7 @@ function Experience() {
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <header className="text-center mb-12">
-          <h2 className="text-4xl font-extrabold text-blue-700 mb-3 tracking-tight">
+          <h2 className="text-4xl font-semibold text-blue-700 mb-3 tracking-tight">
             Professional Experience
           </h2>
           <p className="text-gray-600 text-lg">

@@ -10,7 +10,7 @@ function AboutMe() {
       <div className="mx-auto px-6">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-extrabold text-blue-800 mb-3">About Me</h1>
+          <h1 className="text-4xl font-semibold text-blue-800 mb-3">About Me</h1>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
             A quick glance at who I am, what I do, and the skills I bring to the table.
           </p>
