@@ -6,7 +6,7 @@ function AboutMe() {
     "px-4 py-1.5 bg-blue-600 text-white rounded-full text-sm font-medium tracking-wide hover:bg-blue-700 transition-all duration-200";
 
   return (
-    <section id="about" className="py-10 bg-gradient-to-br from-blue-50 to-blue-100">
+    <section id="about" className="py-10">
       <div className="mx-auto px-6">
         {/* Section Title */}
         <div className="text-center mb-12">
