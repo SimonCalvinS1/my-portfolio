@@ -19,7 +19,7 @@ function Experience() {
 
   return (
     <section className="py-6 bg-gradient-to-br from-blue-50 to-blue-100">
-      <div className="mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <header className="text-center mb-12">
           <h2 className="text-4xl font-semibold text-blue-700 mb-3 tracking-tight">
@@ -54,7 +54,6 @@ function Experience() {
 
                 <p className="text-gray-700 leading-relaxed">{exp.description}</p>
 
-                {/* Hover line animation */}
                 <div className="mt-5 h-0.5 w-0 bg-blue-500 transition-all duration-500 group-hover:w-full"></div>
               </div>
             </div>
@@ -62,7 +61,6 @@ function Experience() {
         </div>
       </div>
 
-      {/* Smooth scroll anchor to Education */}
       <p id="education"></p>
     </section>
   );

@@ -40,14 +40,14 @@ function Projects() {
   ];
 
     return (
-    <section className="py-6 bg-gradient-to-br from-blue-50 to-blue-100"> {/* Added margin bottom */}
+    <section className="py-6 bg-gradient-to-br from-blue-50 to-blue-100">
       <div className="mx-auto px-6">
         <header className="text-3xl text-center text-blue-800 font-semibold mb-4">My Projects</header>
         <br />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-15">
           {projects.map((project) => (
             <div key={project.id} className="bg-[#f0f0f0] rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
-              <div className="p-6 flex flex-col flex-grow"> {/* Added flex and flex-grow */}
+              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-2xl text-blue-700 font-bold">{project.title}</h3>
                 <div className="flex flex-wrap gap-2 mb-2 mt-1">
                   {project.tech.map((tech, index) => (
@@ -59,13 +59,13 @@ function Projects() {
                     </span>
                   ))}
                 </div>
-                <p className="text-gray-600 mb-4 flex-grow">{project.description}</p> {/* Added flex-grow */}
+                <p className="text-gray-600 mb-4 flex-grow">{project.description}</p>
               </div>
             </div>
           ))}
         </div>
       </div>
-      <p id='certifications'></p>
+      <p id="certifications"></p>
     </section>
   );
 }

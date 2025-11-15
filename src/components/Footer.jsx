@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Footer() {
+  const hrefStyle = "text-white hover:text-orange-500";
   return (
     <footer className="bottom-0 w-full bg-cyan-700 py-4">
       <div className="max-w-6xl mx-auto">
@@ -21,7 +22,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/simon-calvin-s" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-red-400 transition-colors">
+                className={hrefStyle}>
                   LinkedIn
               </a>
               <span className="text-white">|</span>
@@ -29,25 +30,24 @@ function Footer() {
                 href="https://github.com/SimonCalvinS1" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-red-400 transition-colors">
+                className={hrefStyle}>
                   GitHub
               </a>
             </nav>
           </div>
 
-          {/* Navigation Section */}
           <div>
             <h3 className="text-lg font-bold mb-4 text-white">Navigate To</h3>
             <nav className="flex flex-row gap-2">
-              <a href="#about" className="text-white hover:text-red-400">
+              <a href="#about" className={hrefStyle}>
                 About
               </a>
               <span className="text-white">|</span>
-              <a href="#projects" className="text-white hover:text-red-400">
+              <a href="#projects" className={hrefStyle}>
                 Projects
               </a>
               <span className="text-white">|</span>
-              <a href="#experience" className="text-white hover:text-red-400">
+              <a href="#experience" className={hrefStyle}>
                 Experience
               </a>
             </nav>

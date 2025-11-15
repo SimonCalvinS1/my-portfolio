@@ -1,5 +1,5 @@
 import React from "react";
-import { Code, Database, Brain, Laptop, Linkedin, Github } from "lucide-react"; // Modern icons
+import { Linkedin, Github, LucideCodeXml } from "lucide-react"; // Modern icons
 
 function AboutMe() {
   const skillstyling =
@@ -8,7 +8,6 @@ function AboutMe() {
   return (
     <section className="py-6">
       <div id="about" className="mx-auto px-6">
-        {/* Section Title */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-semibold text-blue-800 mb-3">About Me</h1>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
@@ -75,6 +74,13 @@ function AboutMe() {
                 <p id="experience" className="mt-12"></p>
                 <Github className="w-5 h-5" /> GitHub
               </a>
+              <a 
+                href="https://leetcode.com/u/SimonCalvinS"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-gray-700 hover:text-orange-800 transition-colors">
+                  <LucideCodeXml className="w-5 h-5" /> LeetCode
+                </a>
             </nav>
           </div>
         </div>
