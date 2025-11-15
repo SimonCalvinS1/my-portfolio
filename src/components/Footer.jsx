@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="bottom-0 w-full bg-cyan-700 py-4">
-      <div className="max-w-7xl mx-auto px-5">
+      <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-3 gap-[300px] mb-3">
           {/* Contact Section */}
           <div>

@@ -40,7 +40,7 @@ function Projects() {
   ];
 
     return (
-    <section className="py-10 bg-gradient-to-br from-blue-50 to-blue-100"> {/* Added margin bottom */}
+    <section className="py-6 bg-gradient-to-br from-blue-50 to-blue-100"> {/* Added margin bottom */}
       <div className="mx-auto px-6">
         <header className="text-3xl text-center text-blue-800 font-semibold mb-4">My Projects</header>
         <br />

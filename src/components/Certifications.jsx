@@ -3,6 +3,18 @@ import React from "react";
 const Certifications = () => {
   const certificationsData = [
     {
+      title: "CBIT Hackathon 2025",
+      institution: "Chaitanya Bharathi Institute of Technology, Hyderabad",
+    },
+    {
+      title: "GameCraft",
+      institution: "CHRIST (Deemed to be University)",
+    },
+    {
+      title: "Fundamentals of Computers and Programming",
+      institution: "CHRIST (Deemed to be University)",
+    },
+    {
       title: "Java for Beginners",
       institution: "Infosys Springboard",
     },
@@ -15,16 +27,24 @@ const Certifications = () => {
       institution: "Infosys Springboard",
     },
     {
-      title: "Introduction to C Programming",
-      institution: "Infosys Springboard",
+      title: "Leadership Skills Development 1",
+      institution: "CHRIST (Deemed to be University)",
+    },
+    {
+      title: "Leadership Skills Development 2",
+      institution: "CHRIST (Deemed to be University)",
+    },
+    {
+      title: "Communication Skills Development 2",
+      institution: "CHRIST (Deemed to be University)",
     },
   ];
 
   return (
-    <div className="py-20">
+    <div className="py-16">
       <div className="mx-auto px-6">
         {/* Section Header */}
-        <h1 className="text-3xl font-semibold text-center text-blue-800 mb-5">
+        <h1 className="text-3xl font-semibold text-center text-blue-800 mb-8">
           My Certifications
         </h1>
 
