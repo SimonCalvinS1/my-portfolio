@@ -9,7 +9,7 @@ function AboutMe() {
     <section className="py-6">
       <div id="about" className="mx-auto px-6">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-semibold text-blue-800 mb-3">About Me</h1>
+          <h1 className="text-3xl font-bold text-blue-800 mb-3">About Me</h1>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
             A quick glance at who I am, what I do, and the skills I bring to the table.
           </p>

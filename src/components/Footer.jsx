@@ -8,7 +8,7 @@ function Footer() {
         <div className="grid grid-cols-3 gap-[300px] mb-3">
           {/* Contact Section */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-white">Contact</h3>
+            <h3 className="text-lg font-bold mb-2 text-white text-center">Contact</h3>
             <p className="text-white leading-relaxed">
               simoncalvin9b@gmail.com
             </p>
@@ -16,7 +16,7 @@ function Footer() {
 
           {/* Social Links Section */}
           <div>
-            <h3 className="text-lg font-bold mb-4 text-white">Social Links</h3>
+            <h3 className="text-lg font-bold mb-2 text-white text-center">Social Links</h3>
             <nav className="flex flex-row gap-2">
               <a 
                 href="https://www.linkedin.com/in/simon-calvin-s" 
@@ -33,11 +33,19 @@ function Footer() {
                 className={hrefStyle}>
                   GitHub
               </a>
+              <span className="text-white">|</span>
+              <a 
+                href="https://leetcode.com/u/SimonCalvinS" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className={hrefStyle}>
+                  LeetCode
+              </a>
             </nav>
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4 text-white">Navigate To</h3>
+            <h3 className="text-lg font-bold mb-2 text-white text-center">Navigate To</h3>
             <nav className="flex flex-row gap-2">
               <a href="#about" className={hrefStyle}>
                 About

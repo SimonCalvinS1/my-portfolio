@@ -18,11 +18,11 @@ function Experience() {
   ];
 
   return (
-    <section className="py-6 bg-gradient-to-br from-blue-50 to-blue-100">
+    <section className="py-6 mt-4 bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <header className="text-center mb-12">
-          <h2 className="text-4xl font-semibold text-blue-700 mb-3 tracking-tight">
+          <h2 className="text-3xl font-bold text-blue-800 mb-3">
             Professional Experience
           </h2>
           <p className="text-gray-600 text-lg">
