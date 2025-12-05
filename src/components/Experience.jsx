@@ -5,15 +5,15 @@ function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Full Stack Developer - CHRIST Incubation Centre",
+      title: "Software Developer - SOCIO - CHRIST Incubation Centre",
       description:
-        "Built both mobile and web full-stack apps (prototypes) for online event registration at CHRIST Central Campus. Developed a mobile app using Flutter. Integrated backend using Node.js and Supabase (PostgreSQL). Deployed backend server at Render.",
+        "Built both mobile and web full-stack apps (prototypes) for online event registration at CHRIST Central Campus. Developed a mobile app using Flutter. Integrated backend using Node.js and Supabase (PostgreSQL). Deployed backend server at Render. Also commited few contributions towards the web app using Next.js and Tailwind CSS for seamless user experience, maintained documents for this software project by working for a real-world startup-based project.",
     },
     {
       id: 2,
-      title: "Hospitality Volunteer - Industry Academia Nexus - School of Sciences",
+      title: "Hospitality Volunteer - Industry Academia Nexus 2025 - School of Sciences",
       description:
-        "Managed hospitality services to the chief guests who had arrived from various companies like Tech Mahindra, IBM Chennai, Tata Power Solar, and more.",
+        "Managed hospitality services to the chief guests who had arrived from various companies like Tech Mahindra, IBM Chennai, Tata Power Solar, and more. Managed eateries and refreshments for the guests during the event. Coordinated with hospitality team members to ensure smooth functioning of hospitality services during the event.",
     },
   ];
 

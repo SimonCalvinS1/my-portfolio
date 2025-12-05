@@ -13,7 +13,7 @@ function Projects() {
       id: 2,
       title: "Explore Shanti Nagar - A Tourist Guide",
       description: "A transport-guide website of Shanti Nagar involving places to visit in and around Shanti Nagar in places like Double Road, Lakkasandra, etc",
-      tech: ["MERN Stack", "Tailwind CSS"],
+      tech: ["MERN Stack", "Tailwind CSS", "Vercel", "Render"],
       link: "#",
     },
     {
