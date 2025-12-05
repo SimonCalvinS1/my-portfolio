@@ -46,6 +46,9 @@ function AboutMe() {
               <span className={skillstyling}>Data Structures & Algorithms</span>
               <span className={skillstyling}>Cross-Team Collaboration</span>
               <span className={skillstyling}>Critical Thinking</span>
+              <span className={skillstyling}>Cloud Computing</span>
+              <span className={skillstyling}>Database as a Service (DBaaS)</span>
+              <span className={skillstyling}>Backend as a Service (BaaS)</span>
               <span className={skillstyling}>Python Programming</span>
               <span className={skillstyling}>Java Programming</span>
             </div>

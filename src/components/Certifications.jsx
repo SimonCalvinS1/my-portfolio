@@ -7,7 +7,7 @@ const Certifications = () => {
       institution: "Chaitanya Bharathi Institute of Technology, Hyderabad",
     },
     {
-      title : " Applied Database Systems 23ai - English",
+      title : "Applied Database Systems 23ai",
       institution: "Oracle Academy",
     },
     {
