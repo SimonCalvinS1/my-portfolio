@@ -18,21 +18,19 @@ function AboutMe() {
         {/* Main Content */}
         <div className="bg-white shadow-xl rounded-xl p-8 border border-blue-100">
           <h2 className="text-2xl font-semibold text-blue-700 mb-3">
-            Hello, I'm Simon Calvin S.
+            I am Simon Calvin S,
           </h2>
           <p className="text-gray-800 text-lg mb-4 leading-relaxed">
-            I'm a passionate <span className="font-semibold text-blue-700">web developer</span> with expertise in React, Node.js, and Python. 
-            I enjoy building engaging, user-friendly web and mobile applications with strong backend integration.
+            a passionate <span className="font-semibold text-blue-700">software developer</span> with expertise in Figma, MERN Stack, Next.js, Tailwind CSS and React Native. 
+            I enjoy building engaging, user-friendly web and mobile applications. I focus on delivering key outcomes, collaborating well with team-based software projects and 
+            quickly adapting to learning new technologies in the field of software development. I like to create creative web technologies, be it individual or team-based.
             With a solid foundation in both frontend and backend development, I've worked with databases like 
-            <span className="font-semibold text-blue-700"> MySQL</span> and 
+            <span className="font-semibold text-blue-700"> MySQL</span>,
+            <span className="font-semibold text-blue-700"> MongoDB</span> and  
             <span className="font-semibold text-blue-700"> Supabase (PostgreSQL)</span>. 
-            When I'm not coding, I love exploring <span className="font-semibold">data analytics</span> and 
-            <span className="font-semibold"> machine learning</span>.
-            I'm an aspiring <span className="font-semibold text-blue-700">Full Stack Developer</span> and 
-            <span className="font-semibold text-blue-700"> Data Analyst</span>. 
             I enjoy working in collaborative teams and applying critical thinking to solve real-world problems.
-            Previously, I interned as a Full Stack Mobile App Developer at <span className="font-semibold">Christ Incubation Centre</span>, 
-            where I built a mobile event registration app using Flutter and Node.js.
+            I have interned as a software developer at Christ Incubation Centre for "Socio", a startup at Christ Central Campus, which is an event registration platform, 
+            wherein I developed a prototype of both web and mobile apps working with a diverse tech stack - Figma, Next.js, Tailwind CSS, Flutter and Supabase.
           </p>
 
           {/* Expertise Section */}
@@ -69,7 +67,7 @@ function AboutMe() {
                 href="https://github.com/SimonCalvinS1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-900 hover:text-blue-500 transition-colors"
+                className="flex items-center gap-2 text-gray-900 hover:text-gray-500 transition-colors"
               >
                 <p id="experience" className="mt-12"></p>
                 <Github className="w-5 h-5" /> GitHub

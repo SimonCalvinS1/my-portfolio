@@ -29,7 +29,7 @@ const Education = () => {
     <div className="py-16">
       <div className="mx-auto px-6">
         {/* Section Header */}
-        <h1 className="text-3xl font-bold text-center text-blue-800 mb-5">
+        <h1 className="text-3xl font-bold text-center text-blue-800 mb-8">
           Education
         </h1>
 

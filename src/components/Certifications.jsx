@@ -7,12 +7,8 @@ const Certifications = () => {
       institution: "Chaitanya Bharathi Institute of Technology, Hyderabad",
     },
     {
-      title: "GameCraft",
-      institution: "CHRIST (Deemed to be University)",
-    },
-    {
-      title: "Fundamentals of Computers and Programming",
-      institution: "CHRIST (Deemed to be University)",
+      title : " Applied Database Systems 23ai - English",
+      institution: "Oracle Academy",
     },
     {
       title: "Java for Beginners",
@@ -25,6 +21,14 @@ const Certifications = () => {
     {
       title: "Introduction to Python",
       institution: "Infosys Springboard",
+    },
+    {
+      title: "GameCraft",
+      institution: "CHRIST (Deemed to be University)",
+    },
+    {
+      title: "Fundamentals of Computers and Programming",
+      institution: "CHRIST (Deemed to be University)",
     },
     {
       title: "Leadership Skills Development 1",

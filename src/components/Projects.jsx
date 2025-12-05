@@ -6,7 +6,7 @@ function Projects() {
       id: 1,
       title: "SOCIO - Event Registration at CHRIST",
       description: "Built both mobile and web full-stack apps (prototypes) for online event registration at CHRIST Central Campus",
-      tech: ["Flutter", "Node.js", "Supabase"],
+      tech: ["Flutter", "Next.js", "Node.js", "Supabase"],
       link: "#",
     },
     {
@@ -34,17 +34,17 @@ function Projects() {
       id: 5,
       title: "International Debt Analysis (Ongoing)",
       description: "A data analysis project to visualise and gather useful information and perform meaning operations on it.",
-      tech: ["Python"],
+      tech: ["Python", "MySQL"],
       link: "#",
     }
   ];
 
     return (
-    <section className="py-6 mt-2 bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl">
+    <section className="py-6 mt-2">
       <div className="mx-auto px-6">
         <header className="text-3xl text-center text-blue-800 font-semibold mb-4">My Projects</header>
         <br />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-15">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projects.map((project) => (
             <div key={project.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <div className="p-6 flex flex-col flex-grow">
@@ -59,7 +59,7 @@ function Projects() {
                     </span>
                   ))}
                 </div>
-                <p className="text-gray-600 mb-4 flex-grow">{project.description}</p>
+                <p className="text-gray-600 mb-2 flex-grow">{project.description}</p>
               </div>
             </div>
           ))}

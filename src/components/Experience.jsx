@@ -18,7 +18,7 @@ function Experience() {
   ];
 
   return (
-    <section className="py-6 mt-4 bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl">
+    <section className="py-6 mt-4">
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <header className="text-center mb-12">
