@@ -26,8 +26,9 @@ function AboutMe() {
             quickly adapting to learning new technologies in the field of software development. I like to create creative web technologies, be it individual or team-based.
             With a solid foundation in both frontend and backend development, I've worked with databases like 
             <span className="font-semibold text-blue-700"> MySQL</span>,
-            <span className="font-semibold text-blue-700"> MongoDB</span> and  
-            <span className="font-semibold text-blue-700"> Supabase (PostgreSQL)</span>. 
+            <span className="font-semibold text-blue-700"> MongoDB (MongoDB Compass and MongoDB Atlas Cloud)</span> and  
+            <span className="font-semibold text-blue-700"> PostgreSQL (Supabase)</span>. 
+            Working with MongoDB Atlas (Cloud) and Supabase (DBaaS and BaaS) has enhanced my skills in managing cloud databases effectively.
             I enjoy working in collaborative teams and applying critical thinking to solve real-world problems.
             I have interned as a software developer at Christ Incubation Centre for "Socio", a startup at Christ Central Campus, which is an event registration platform, 
             wherein I developed a prototype of both web and mobile apps working with a diverse tech stack - Figma, Next.js, Tailwind CSS, Flutter and Supabase.
