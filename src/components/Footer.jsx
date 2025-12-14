@@ -1,16 +1,16 @@
 import React from 'react';
 
 function Footer() {
-  const hrefStyle = "hover:text-red-700";
-  const headings = "text-lg font-bold mb-2 text-center text-blue-800";
+  const hrefStyle = "text-white hover:text-red-500";
+  const headings = "text-lg font-bold mb-2 text-center text-blue-400";
   return (
-    <footer className="bottom-0 w-full bg-white py-4">
+    <footer className="bottom-0 w-full bg-gray-900/50 py-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-3 gap-[300px] mb-3">
           {/* Contact Section */}
           <div>
             <h3 className={headings}>Contact</h3>
-            <p className="leading-relaxed">
+            <p className="text-white">
               simoncalvin9b@gmail.com
             </p>
           </div>
@@ -23,23 +23,23 @@ function Footer() {
                 href="https://www.linkedin.com/in/simon-calvin-s" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-blue-600">
+                className="text-white hover:text-blue-600">
                   LinkedIn
               </a>
-              <span>|</span>
+              <span className="text-white">|</span>
               <a 
                 href="https://github.com/SimonCalvinS1" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-gray-500">
+                className="text-white hover:text-gray-500">
                   GitHub
               </a>
-              <span>|</span>
+              <span className="text-white">|</span>
               <a 
                 href="https://leetcode.com/u/SimonCalvinS" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className={hrefStyle}>
+                className="text-white hover:text-orange-500">
                   LeetCode
               </a>
             </nav>
@@ -51,11 +51,11 @@ function Footer() {
               <a href="#about" className={hrefStyle}>
                 About
               </a>
-              <span>|</span>
+              <span className="text-white">|</span>
               <a href="#projects" className={hrefStyle}>
                 Projects
               </a>
-              <span>|</span>
+              <span className="text-white">|</span>
               <a href="#experience" className={hrefStyle}>
                 Experience
               </a>

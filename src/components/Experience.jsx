@@ -22,10 +22,10 @@ function Experience() {
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <header className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-blue-800 mb-3">
+          <h2 className="text-3xl font-bold text-white mb-3">
             Professional Experience
           </h2>
-          <p className="text-gray-600 text-lg">
+          <p className="text-white text-lg">
             My hands-on roles and contributions in development and event management
           </p>
         </header>
@@ -35,7 +35,7 @@ function Experience() {
           {experiences.map((exp, index) => (
             <div
               key={exp.id}
-              className="group relative bg-white border border-blue-100 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+              className="bg-gray-900/50 rounded-2xl shadow-md"
             >
               {/* Accent gradient border */}
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
@@ -43,18 +43,16 @@ function Experience() {
               <div className="p-8">
                 <div className="flex items-center gap-3 mb-4">
                   {index === 0 ? (
-                    <Briefcase className="text-blue-600 w-7 h-7" />
+                    <Briefcase className="text-white w-7 h-7" />
                   ) : (
-                    <Building2 className="text-blue-600 w-7 h-7" />
+                    <Building2 className="text-white w-7 h-7" />
                   )}
-                  <h3 className="text-xl font-semibold text-blue-800 leading-snug">
+                  <h3 className="text-xl font-semibold text-white leading-snug">
                     {exp.title}
                   </h3>
                 </div>
 
-                <p className="text-gray-700 leading-relaxed">{exp.description}</p>
-
-                <div className="mt-5 h-0.5 w-0 bg-blue-500 transition-all duration-500 group-hover:w-full"></div>
+                <p className="text-white leading-relaxed">{exp.description}</p>
               </div>
             </div>
           ))}

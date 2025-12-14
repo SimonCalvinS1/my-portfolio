@@ -42,13 +42,13 @@ function Projects() {
     return (
     <section className="py-6 mt-2">
       <div className="mx-auto px-6">
-        <header className="text-3xl text-center text-blue-800 font-semibold mb-4">My Projects</header>
+        <header className="text-3xl text-center text-white font-semibold mb-4">My Projects</header>
         <br />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projects.map((project) => (
-            <div key={project.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
+            <div key={project.id} className="bg-gray-900/50 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-2xl text-blue-700 font-bold">{project.title}</h3>
+                <h3 className="text-2xl text-blue-400 font-bold">{project.title}</h3>
                 <div className="flex flex-wrap gap-2 mb-2 mt-1">
                   {project.tech.map((tech, index) => (
                     <span 
@@ -59,7 +59,7 @@ function Projects() {
                     </span>
                   ))}
                 </div>
-                <p className="text-gray-600 mb-2 flex-grow">{project.description}</p>
+                <p className="text-gray-300 mb-2 flex-grow">{project.description}</p>
               </div>
             </div>
           ))}

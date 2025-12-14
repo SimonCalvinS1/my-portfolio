@@ -9,25 +9,25 @@ function AboutMe() {
     <section className="py-6">
       <div id="about" className="mx-auto px-6">
         <div className="text-center mb-12">
-          <h1 className="text-3xl font-bold text-blue-800 mb-3">About Me</h1>
-          <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+          <h1 className="text-3xl font-bold text-white mb-3">About Me</h1>
+          <p className="text-white text-lg max-w-3xl mx-auto">
             A quick glance at who I am, what I do, and the skills I bring to the table.
           </p>
         </div>
 
         {/* Main Content */}
-        <div className="bg-white shadow-xl rounded-xl p-8 border border-blue-100">
-          <h2 className="text-2xl font-semibold text-blue-700 mb-3">
+        <div className="bg-gray-900/50 rounded-xl p-8">
+          <h2 className="text-2xl font-semibold text-white mb-3">
             I am Simon Calvin S,
           </h2>
-          <p className="text-gray-800 text-lg mb-4 leading-relaxed">
-            a passionate <span className="font-semibold text-blue-700">software developer</span> with expertise in Figma, MERN Stack, Next.js, Tailwind CSS and React Native. 
+          <p className="text-white text-lg mb-4 leading-relaxed">
+            a passionate <span className="font-semibold text-blue-400">software developer</span> with expertise in Figma, MERN Stack, Next.js, Tailwind CSS and React Native. 
             I enjoy building engaging, user-friendly web and mobile applications. I focus on delivering key outcomes, collaborating well with team-based software projects and 
             quickly adapting to learning new technologies in the field of software development. I like to create creative web technologies, be it individual or team-based.
             With a solid foundation in both frontend and backend development, I've worked with databases like 
-            <span className="font-semibold text-blue-700"> MySQL</span>,
-            <span className="font-semibold text-blue-700"> MongoDB (MongoDB Compass and MongoDB Atlas Cloud)</span> and  
-            <span className="font-semibold text-blue-700"> PostgreSQL (Supabase)</span>. 
+            <span className="font-semibold text-blue-400"> MySQL</span>,
+            <span className="font-semibold text-blue-400"> MongoDB (MongoDB Compass and MongoDB Atlas Cloud)</span> and  
+            <span className="font-semibold text-blue-400"> PostgreSQL (Supabase)</span>. 
             Working with MongoDB Atlas (Cloud) and Supabase (DBaaS and BaaS) has enhanced my skills in managing cloud databases effectively.
             I enjoy working in collaborative teams and applying critical thinking to solve real-world problems.
             I have interned as a software developer at Christ Incubation Centre for "Socio", a startup at Christ Central Campus, which is an event registration platform, 
@@ -36,7 +36,7 @@ function AboutMe() {
 
           {/* Expertise Section */}
           <div className="mb-5">
-            <h3 className="text-2xl text-blue-700 font-semibold mb-3 flex items-center gap-2">
+            <h3 className="text-2xl text-white font-semibold mb-3 flex items-center gap-2">
               My Areas of Expertise
             </h3>
 
@@ -57,13 +57,13 @@ function AboutMe() {
 
           {/* Social Links */}
           <div>
-            <h3 className="text-2xl text-blue-700 font-semibold flex items-center gap-1">Social Links</h3>
+            <h3 className="text-2xl text-white font-semibold flex items-center gap-1">Social Links</h3>
             <nav className="flex gap-6 text-lg">
               <a
                 href="https://www.linkedin.com/in/simon-calvin-s"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-blue-800 hover:text-blue-500 transition-colors"
+                className="flex items-center gap-2 text-blue-300 hover:text-blue-500 transition-colors"
               >
                 <Linkedin className="w-5 h-5" /> LinkedIn
               </a>
@@ -71,7 +71,7 @@ function AboutMe() {
                 href="https://github.com/SimonCalvinS1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-900 hover:text-gray-500 transition-colors"
+                className="flex items-center gap-2 text-gray-200 hover:text-gray-400 transition-colors"
               >
                 <p id="experience" className="mt-12"></p>
                 <Github className="w-5 h-5" /> GitHub
@@ -80,7 +80,7 @@ function AboutMe() {
                 href="https://leetcode.com/u/SimonCalvinS"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-700 hover:text-orange-800 transition-colors">
+                className="flex items-center gap-2 text-orange-300 hover:text-orange-500 transition-colors">
                   <LucideCodeXml className="w-5 h-5" /> LeetCode
                 </a>
             </nav>

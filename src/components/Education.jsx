@@ -29,7 +29,7 @@ const Education = () => {
     <div className="py-16">
       <div className="mx-auto px-6">
         {/* Section Header */}
-        <h1 className="text-3xl font-bold text-center text-blue-800 mb-8">
+        <h1 className="text-3xl font-bold text-center text-white mb-8">
           Education
         </h1>
 
@@ -38,16 +38,16 @@ const Education = () => {
           {educationData.map((edu, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 p-6 border border-gray-100"
+              className="bg-gray-900/50 rounded-2xl shadow-m p-6"
             >
-              <h2 className="text-xl font-semibold text-blue-700 mb-1">
+              <h2 className="text-xl font-semibold text-blue-400 mb-1">
                 {edu.title}
               </h2>
-              <h3 className="text-gray-800 font-medium mb-1">
+              <h3 className="text-gray-200 font-medium mb-1">
                 {edu.institution}
               </h3>
               <p className="text-gray-400 mb-3">{edu.duration}</p>
-              <p className="text-gray-600 leading-relaxed text-[15px]">
+              <p className="text-gray-300 leading-relaxed text-[15px]">
                 {edu.description}
               </p>
             </div>
