@@ -1,72 +1,79 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
-  const hrefStyle = "text-white hover:text-red-500";
-  const headings = "text-lg font-bold mb-2 text-center text-blue-400";
+  const linkStyle =
+    "text-white hover:text-gray-300 transition";
+
+  const headingStyle =
+    "text-lg font-semibold mb-3 text-white";
+
   return (
-    <footer className="bottom-0 w-full bg-gray-900/50 py-4">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-3 gap-[300px] mb-3">
-          {/* Contact Section */}
+    <footer className="bg-gray-900/70 backdrop-blur mt-20">
+      <div className="max-w-7xl mx-auto px-6 py-10">
+        
+        {/* Top Sections */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
+          
+          {/* Contact */}
           <div>
-            <h3 className={headings}>Contact</h3>
+            <h3 className={headingStyle}>Contact</h3>
             <p className="text-white">
               simoncalvin9b@gmail.com
             </p>
           </div>
 
-          {/* Social Links Section */}
+          {/* Social Links */}
           <div>
-            <h3 className={headings}>Social Links</h3>
-            <nav className="flex flex-row gap-2">
-              <a 
-                href="https://www.linkedin.com/in/simon-calvin-s" 
+            <h3 className={headingStyle}>Social Links</h3>
+            <nav className="flex justify-center md:justify-start gap-4">
+              <a
+                href="https://www.linkedin.com/in/simon-calvin-s"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-blue-600">
-                  LinkedIn
+                className={linkStyle}
+              >
+                LinkedIn
               </a>
-              <span className="text-white">|</span>
-              <a 
-                href="https://github.com/SimonCalvinS1" 
+              <a
+                href="https://github.com/SimonCalvinS1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-gray-500">
-                  GitHub
+                className={linkStyle}
+              >
+                GitHub
               </a>
-              <span className="text-white">|</span>
-              <a 
-                href="https://leetcode.com/u/SimonCalvinS" 
+              <a
+                href="https://leetcode.com/u/SimonCalvinS"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-orange-500">
-                  LeetCode
+                className={linkStyle}
+              >
+                LeetCode
               </a>
             </nav>
           </div>
 
+          {/* Navigation */}
           <div>
-            <h3 className={headings}>Navigate To</h3>
-            <nav className="flex flex-row gap-2">
-              <a href="#about" className={hrefStyle}>
+            <h3 className={headingStyle}>Navigate</h3>
+            <nav className="flex justify-center md:justify-start gap-4">
+              <a href="#about" className={linkStyle}>
                 About
               </a>
-              <span className="text-white">|</span>
-              <a href="#projects" className={hrefStyle}>
+              <a href="#projects" className={linkStyle}>
                 Projects
               </a>
-              <span className="text-white">|</span>
-              <a href="#experience" className={hrefStyle}>
+              <a href="#experience" className={linkStyle}>
                 Experience
               </a>
             </nav>
           </div>
         </div>
 
-        {/* Footer Bottom */}
-        <div className="text-center pt-[1px]">
+        {/* Divider */}
+        <div className="border-t border-gray-700 mt-10 pt-6 text-center">
           <p className="text-white text-sm">
-            &copy; 2025 Simon Calvin S. All rights reserved.
+            © 2025 Simon Calvin S. All rights reserved.
           </p>
         </div>
       </div>
