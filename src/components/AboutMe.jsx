@@ -107,6 +107,7 @@ function AboutMe() {
           </div>
         </div>
       </div>
+      <p id="experience"></p>
     </section>
   );
 }

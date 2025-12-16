@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   const linkStyle =
-    "text-white hover:text-gray-300 transition";
+    "text-white text-center hover:text-gray-300 transition";
 
   const headingStyle =
     "text-lg font-semibold mb-3 text-white";
@@ -12,12 +12,12 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-10">
         
         {/* Top Sections */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-center">
           
           {/* Contact */}
           <div>
             <h3 className={headingStyle}>Contact</h3>
-            <p className="text-white">
+            <p className="text-white text-center">
               simoncalvin9b@gmail.com
             </p>
           </div>
@@ -25,7 +25,7 @@ function Footer() {
           {/* Social Links */}
           <div>
             <h3 className={headingStyle}>Social Links</h3>
-            <nav className="flex justify-center md:justify-start gap-4">
+            <nav className="flex justify-center md:justify-center gap-4">
               <a
                 href="https://www.linkedin.com/in/simon-calvin-s"
                 target="_blank"
@@ -56,7 +56,7 @@ function Footer() {
           {/* Navigation */}
           <div>
             <h3 className={headingStyle}>Navigate</h3>
-            <nav className="flex justify-center md:justify-start gap-4">
+            <nav className="flex justify-center md:justify-center gap-4">
               <a href="#about" className={linkStyle}>
                 About
               </a>

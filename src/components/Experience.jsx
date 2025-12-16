@@ -15,6 +15,12 @@ function Experience() {
       description:
         "Managed hospitality services to the chief guests who had arrived from various companies like Tech Mahindra, IBM Chennai, Tata Power Solar, and more. Managed eateries and refreshments for the guests during the event. Coordinated with hospitality team members to ensure smooth functioning of hospitality services during the event.",
     },
+    {
+      id: 3,
+      title: "Campus Hero - Co-Founder",
+      description:
+        "Co-founded Campus Hero, a student-led initiative aimed at enhancing campus life through management of student issues and reporting them.",
+    },
   ];
 
   return (
