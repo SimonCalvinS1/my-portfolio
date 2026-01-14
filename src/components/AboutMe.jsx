@@ -27,9 +27,9 @@ function AboutMe() {
 
           <p className="text-gray-200 text-base sm:text-lg leading-relaxed mb-6">
             a passionate{" "}
-            <span className="font-semibold text-blue-400">software developer</span>{" "}
-            with expertise in Figma, MERN Stack, Next.js, Tailwind CSS and React Native.
-            I enjoy building engaging, user-friendly web and mobile applications.
+            <span className="font-semibold text-blue-400">Data Analyst</span>{" "}
+            with expertise in Python, Excel, SQL, PowerBI and Tableau.
+            I enjoy creating data visualisation using these technologies.
             <br /><br />
             With experience in{" "}
             <span className="text-blue-400 font-semibold">MySQL</span>,{" "}
@@ -37,10 +37,10 @@ function AboutMe() {
             <span className="text-blue-400 font-semibold">PostgreSQL (Supabase)</span>,
             I am comfortable managing both local and cloud databases.
             <br /><br />
-            I interned as a Software Developer at{" "}
+            Previously, I have interned as a Software Developer at{" "}
             <span className="font-semibold text-blue-400">
               Christ Incubation Centre
-            </span>, working on “Socio”, an event registration platform using
+            </span>, working on SOCIO, an event registration platform using
             Figma, Next.js, Tailwind CSS, Flutter and Supabase.
           </p>
 
@@ -52,6 +52,11 @@ function AboutMe() {
 
             <div className="flex flex-wrap gap-3">
               {[
+                "Data Analysis",
+                "Data Visualization",
+                "SQL & NoSQL Databases",
+                "PowerBI",
+                "Tableau",
                 "MERN Stack Web Developer",
                 "Mobile App Developer",
                 "Database Management",

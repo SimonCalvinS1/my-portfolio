@@ -4,39 +4,33 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: "International Debt Analysis (Ongoing)",
+      description: "A data analysis project to visualise and gather useful information and perform meaning operations on it.",
+      tech: ["Python", "MySQL", "Excel"],
+      link: "#",
+    },
+    {
+      id: 2,
       title: "SOCIO - Event Registration at CHRIST",
       description: "Built both mobile and web full-stack apps (prototypes) for online event registration at CHRIST Central Campus",
       tech: ["Flutter", "Next.js", "Node.js", "Supabase"],
       link: "#",
     },
     {
-      id: 2,
+      id: 3,
       title: "Explore Shanti Nagar - A Tourist Guide",
       description: "A transport-guide website of Shanti Nagar involving places to visit in and around Shanti Nagar in places like Double Road, Lakkasandra, etc",
       tech: ["MERN Stack", "Tailwind CSS", "Vercel", "Render"],
       link: "#",
     },
-    {
-      id: 3,
-      title: "Aqua Manage - Fish Health (Ongoing)",
-      description: "A web application to monitor and manage fish health in aquaculture farms using data analytics.",
-      tech: ["Next.js", "TypeScript"],
-      link: "#",
-    },
+    
     {
       id: 4,
-      title: "EatJourney - Calories Regulator (Ongoing)",
-      description: "A cross-platform app to help users track and regulate their calorie intake and diet plans.",
-      tech: ["React Native", "Node.js"],
+      title: "Campus Hero (Ongoing)",
+      description: "A student-led initiative platform aimed at enhancing campus life through management of student issues and reporting them through online based Mentor-Mentee sessions.",
+      tech: ["React", "Tailwind CSS"],
       link: "#",
     },
-    {
-      id: 5,
-      title: "International Debt Analysis (Ongoing)",
-      description: "A data analysis project to visualise and gather useful information and perform meaning operations on it.",
-      tech: ["Python", "MySQL"],
-      link: "#",
-    }
   ];
 
     return (

@@ -19,7 +19,7 @@ function Experience() {
       id: 3,
       title: "Campus Hero - Co-Founder",
       description:
-        "Co-founded Campus Hero, a student-led initiative aimed at enhancing campus life through management of student issues and reporting them.",
+        "Co-founded Campus Hero, a student-led initiative aimed at enhancing campus life through management of student issues and reporting them through online based Mentor-Mentee sessions.",
     },
   ];
 
