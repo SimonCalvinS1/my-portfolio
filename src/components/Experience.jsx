@@ -17,43 +17,40 @@ function Experience() {
     },
     {
       id: 3,
-      title: "Campus Hero - Co-Founder",
+      title: "Co-Founder at CampusHero",
       description:
-        "Co-founded Campus Hero, a student-led initiative aimed at enhancing campus life through management of student issues and reporting them through online based Mentor-Mentee sessions.",
+        "Co-founded CampusHero, a student-led initiative aimed at enhancing campus life through management of student issues and reporting them through online based Mentor-Mentee sessions.",
     },
   ];
 
   return (
     <section className="py-6 mt-4">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto">
         {/* Header */}
         <header className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white mb-3">
+          <h2 className="text-3xl font-bold text-blue-400 mb-3">
             Professional Experience
           </h2>
           <p className="text-white text-lg">
-            My hands-on roles and contributions in development and event management
+            My hands-on roles and contributions in development and software management.
           </p>
         </header>
 
         {/* Experience Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
           {experiences.map((exp, index) => (
             <div
               key={exp.id}
               className="bg-gray-900/50 rounded-2xl shadow-md"
             >
-              {/* Accent gradient border */}
-              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
-
-              <div className="p-8">
+              <div className="p-5">
                 <div className="flex items-center gap-3 mb-4">
                   {index === 0 ? (
-                    <Briefcase className="text-white w-7 h-7" />
+                    <Briefcase className="text-yellow-600 w-7 h-7" />
                   ) : (
-                    <Building2 className="text-white w-7 h-7" />
+                    <Building2 className="text-yellow-600 w-7 h-7" />
                   )}
-                  <h3 className="text-xl font-semibold text-white leading-snug">
+                  <h3 className="text-xl font-semibold text-yellow-400">
                     {exp.title}
                   </h3>
                 </div>

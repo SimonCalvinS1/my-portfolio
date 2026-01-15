@@ -27,11 +27,16 @@ const Education = () => {
 
   return (
     <div className="py-16">
-      <div className="mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
-        <h1 className="text-3xl font-bold text-center text-white mb-8">
-          Education
-        </h1>
+        <header className="text-center mb-12">
+          <h2 className="text-3xl font-bold text-blue-400 mb-3">
+            Education
+          </h2>
+          <p className="text-white text-lg">
+            A summary of my academic background and qualifications.
+          </p>
+        </header>
 
         {/* Education Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -40,7 +45,7 @@ const Education = () => {
               key={index}
               className="bg-gray-900/50 rounded-2xl shadow-m p-6"
             >
-              <h2 className="text-xl font-semibold text-blue-400 mb-1">
+              <h2 className="text-xl font-semibold text-yellow-400 mb-1">
                 {edu.title}
               </h2>
               <h3 className="text-gray-200 font-medium mb-1">

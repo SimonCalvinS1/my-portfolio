@@ -75,11 +75,11 @@ function Achievements() {
       <div className="max-w-6xl mx-auto px-6">
         {/* Header */}
         <header className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-white mb-3">
+          <h2 className="text-3xl font-bold text-blue-400 mb-3">
             Achievements
           </h2>
           <p className="text-white text-lg">
-            Highlights of my accomplishments and contributions
+            Highlights of my accomplishments and contributions.
           </p>
         </header>
 
@@ -90,12 +90,9 @@ function Achievements() {
               key={ach.id}
               className="bg-gray-900/50 rounded-2xl shadow-md"
             >
-              {/* Accent gradient border */}
-              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-200"></div>
-
               <div className="p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <h3 className="text-xl font-semibold text-white leading-snug">
+                  <h3 className="text-xl font-semibold text-yellow-400 leading-snug">
                     {ach.title}
                   </h3>
                 </div>

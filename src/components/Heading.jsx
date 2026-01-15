@@ -13,11 +13,11 @@ function Heading() {
   ];
 
   const linkStyle =
-    "text-white font-medium hover:text-blue-400 transition";
+    "text-white font-semibold hover:text-gray-400 transition";
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-[1000] bg-black/80 backdrop-blur">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    <header className="fixed top-0 left-0 right-0 z-[1000] bg-[#141414] backdrop-blur">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-6">
         
         {/* Logo */}
         <h1 className="text-white text-lg md:text-2xl font-bold">

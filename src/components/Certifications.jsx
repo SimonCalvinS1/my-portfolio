@@ -3,24 +3,16 @@ import React from "react";
 const Certifications = () => {
   const certificationsData = [
     {
-      title: "CBIT Hackathon 2025",
-      institution: "Chaitanya Bharathi Institute of Technology, Hyderabad",
+      title: "Introduction to Python",
+      institution: "Infosys Springboard",
     },
     {
       title : "Applied Database Systems 23ai",
       institution: "Oracle Academy",
     },
     {
-      title: "Java for Beginners",
-      institution: "Infosys Springboard",
-    },
-    {
-      title: "Learning Full Stack Development",
-      institution: "Infosys Springboard",
-    },
-    {
-      title: "Introduction to Python",
-      institution: "Infosys Springboard",
+      title: "CBIT Hackathon 2025",
+      institution: "Chaitanya Bharathi Institute of Technology, Hyderabad",
     },
     {
       title: "GameCraft",
@@ -46,11 +38,14 @@ const Certifications = () => {
 
   return (
     <div className="py-16">
-      <div className="mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6">
         {/* Section Header */}
-        <h1 className="text-3xl font-semibold text-center text-white mb-8">
+        <h1 className="text-3xl font-semibold text-center text-blue-400 mb-3">
           My Certifications
         </h1>
+        <p className="text-white text-center text-lg mb-8">
+          Highlights of my certifications and courses completed.
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 p-8">
           {certificationsData.map((cer, index) => (
@@ -58,11 +53,11 @@ const Certifications = () => {
               key={index}
               className="bg-gray-900/50 rounded-2xl p-6"
             >
-              <h2 className="text-xl font-semibold text-blue-400 mb-4">
+              <h2 className="text-xl font-semibold text-yellow-400 mb-4">
                 {cer.title}
               </h2>
-              <h3 className="text-gray-300 text-right font-medium mb-1">
-                {cer.institution}
+              <h3 className="text-gray-300 text-right text-orange-300 font-medium mb-1">
+                - {cer.institution}
               </h3>
             </div>
           ))}

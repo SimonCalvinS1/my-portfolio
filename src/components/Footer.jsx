@@ -2,17 +2,17 @@ import React from "react";
 
 function Footer() {
   const linkStyle =
-    "text-white text-center hover:text-gray-300 transition";
+    "text-white text-center hover:text-gray-400 transition";
 
   const headingStyle =
-    "text-lg font-semibold mb-3 text-white";
+    "text-lg font-semibold mb-3 text-blue-500";
 
   return (
-    <footer className="bg-gray-900/70 backdrop-blur mt-20">
+    <footer className="bg-[#141414] backdrop-blur">
       <div className="max-w-7xl mx-auto px-6 py-10">
         
         {/* Top Sections */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-center">
           
           {/* Contact */}
           <div>
@@ -25,7 +25,7 @@ function Footer() {
           {/* Social Links */}
           <div>
             <h3 className={headingStyle}>Social Links</h3>
-            <nav className="flex justify-center md:justify-center gap-4">
+            <nav className="flex justify-center md:justify-center gap-4 text-white">
               <a
                 href="https://www.linkedin.com/in/simon-calvin-s"
                 target="_blank"
@@ -33,7 +33,7 @@ function Footer() {
                 className={linkStyle}
               >
                 LinkedIn
-              </a>
+              </a> |
               <a
                 href="https://github.com/SimonCalvinS1"
                 target="_blank"
@@ -41,7 +41,7 @@ function Footer() {
                 className={linkStyle}
               >
                 GitHub
-              </a>
+              </a> |
               <a
                 href="https://leetcode.com/u/SimonCalvinS"
                 target="_blank"
@@ -55,14 +55,14 @@ function Footer() {
 
           {/* Navigation */}
           <div>
-            <h3 className={headingStyle}>Navigate</h3>
-            <nav className="flex justify-center md:justify-center gap-4">
+            <h3 className={headingStyle}>Navigate to</h3>
+            <nav className="flex justify-center md:justify-center gap-4 text-white">
               <a href="#about" className={linkStyle}>
                 About
-              </a>
+              </a> |
               <a href="#projects" className={linkStyle}>
                 Projects
-              </a>
+              </a> |
               <a href="#experience" className={linkStyle}>
                 Experience
               </a>
@@ -71,7 +71,7 @@ function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-700 mt-10 pt-6 text-center">
+        <div className="pt-6 text-center">
           <p className="text-white text-sm">
             © 2025 Simon Calvin S. All rights reserved.
           </p>
