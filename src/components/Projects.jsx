@@ -49,7 +49,7 @@ function Projects() {
           {projects.map((project) => (
             <div key={project.id} className="bg-gray-900/50 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl text-yellow-400 font-bold">{project.title}</h3>
+                <h3 className="text-xl text-blue-500 font-bold">{project.title}</h3>
                 <div className="flex flex-wrap gap-2 mb-2 mt-1">
                   {project.tech.map((tech, index) => (
                     <span 

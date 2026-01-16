@@ -45,7 +45,7 @@ const Education = () => {
               key={index}
               className="bg-gray-900/50 rounded-2xl shadow-m p-6"
             >
-              <h2 className="text-xl font-semibold text-yellow-400 mb-1">
+              <h2 className="text-xl font-semibold text-blue-500 mb-1">
                 {edu.title}
               </h2>
               <h3 className="text-gray-200 font-medium mb-1">

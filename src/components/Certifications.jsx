@@ -53,10 +53,10 @@ const Certifications = () => {
               key={index}
               className="bg-gray-900/50 rounded-2xl p-6"
             >
-              <h2 className="text-xl font-semibold text-yellow-400 mb-4">
+              <h2 className="text-xl font-semibold text-blue-400 mb-4">
                 {cer.title}
               </h2>
-              <h3 className="text-gray-300 text-right text-orange-300 font-medium mb-1">
+              <h3 className="text-gray-300 text-right text-yellow-300 font-medium mb-1">
                 - {cer.institution}
               </h3>
             </div>

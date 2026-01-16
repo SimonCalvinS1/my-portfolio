@@ -46,11 +46,11 @@ function Experience() {
               <div className="p-5">
                 <div className="flex items-center gap-3 mb-4">
                   {index === 0 ? (
-                    <Briefcase className="text-yellow-600 w-7 h-7" />
+                    <Briefcase className="text-blue-600 w-7 h-7" />
                   ) : (
-                    <Building2 className="text-yellow-600 w-7 h-7" />
+                    <Building2 className="text-blue-600 w-7 h-7" />
                   )}
-                  <h3 className="text-xl font-semibold text-yellow-400">
+                  <h3 className="text-xl font-semibold text-blue-500">
                     {exp.title}
                   </h3>
                 </div>

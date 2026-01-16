@@ -25,16 +25,16 @@ function AboutMe() {
 
         <p className="text-gray-200 text-base sm:text-lg leading-relaxed mb-6">
           a passionate{" "}
-          <span className="font-semibold text-yellow-400">Data Analyst</span>{" "}
-          with expertise in <span className="text-yellow-400 font-semibold">Python</span>, {" "}
-          <span className="text-yellow-400 font-semibold">Excel</span>, {" "}
-          <span className="text-yellow-400 font-semibold">SQL</span>, {" "}
-          <span className="text-yellow-400 font-semibold">PowerBI</span> {" "}
-          and <span className="text-yellow-400 font-semibold">Tableau</span>.
+          <span className="font-semibold text-cyan-400">Data Analyst</span>{" "}
+          with expertise in <span className="text-blue-300 font-semibold">Python</span>, {" "}
+          <span className="text-green-300 font-semibold">Excel</span>, {" "}
+          <span className="text-blue-400 font-semibold">SQL</span>, {" "}
+          <span className="text-yellow-300 font-semibold">PowerBI</span> {" "}
+          and <span className="text-blue-500 font-semibold">Tableau</span>.
           I enjoy creating data visualisation using these technologies.
           With experience in{" "}
-          <span className="text-yellow-400 font-semibold">MySQL</span>, and {" "}
-          <span className="text-yellow-400 font-semibold">MongoDB</span>,{" "}
+          <span className="text-blue-400 font-semibold">MySQL</span>, and {" "}
+          <span className="text-green-400 font-semibold">MongoDB</span>,{" "}
           I am comfortable managing both local and cloud databases.
           I am building my skills in data analysis and visualization through various projects and coursework.
         </p>
@@ -43,7 +43,7 @@ function AboutMe() {
           <span className="font-semibold text-yellow-400">Christ University, Bangalore</span>.
           Here, you can look at my projects in the <a href="#projects" className="text-blue-400 underline">Projects Section</a>.
           I have an internship experience working as a Software Developer at{" "}
-          <span className="font-semibold text-yellow-400">Christ Incubation Centre</span>,
+          <span className="font-semibold text-yellow-400">Christ Incubation and Consultancy Foundation (CICF)</span>,
           prototyping SOCIO, an event registration platform (mobile app).
         </p>
 
