@@ -11,7 +11,7 @@ function Projects() {
     },
     {
       id: 2,
-      title: "Shanti Nagar Places to Visit - Data Analysis (Ongoing)",
+      title: "Indian Places to Visit - Data Analysis (Ongoing)",
       description: "Suggestion of best food, stay and travel options in and around Shanti Nagar based on user reviews and ratings on Google.",
       tech: ["Python", "Excel", "Pandas", "Matplotlib"],
       link: "#",
@@ -26,15 +26,15 @@ function Projects() {
     {
       id: 4,
       title: "SOCIO - Event Registration App at CHRIST",
-      description: "Built both mobile and web full-stack apps (prototypes) for online event registration at CHRIST Central Campus",
-      tech: ["Flutter", "Next.js", "Node.js", "Supabase"],
+      description: "Built a mobile full-stack app (prototype) for online event registration at CHRIST Central Campus",
+      tech: ["Flutter", "Node.js", "Supabase"],
       link: "#",
     },
     {
       id: 5,
       title: "Explore Shanti Nagar - A Tourist Guide",
       description: "A transport-guide website of Shanti Nagar involving places to visit in and around Shanti Nagar in places like Double Road, Lakkasandra, etc",
-      tech: ["MERN Stack", "Tailwind CSS", "Vercel", "Render"],
+      tech: ["MERN Stack", "Tailwind CSS", "Vercel"],
       link: "#",
     },
   ];

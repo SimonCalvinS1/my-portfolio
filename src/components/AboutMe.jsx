@@ -24,27 +24,18 @@ function AboutMe() {
         </h2>
 
         <p className="text-gray-200 text-base sm:text-lg leading-relaxed mb-6">
-          a passionate{" "}
-          <span className="font-semibold text-cyan-400">Data Analyst</span>{" "}
-          with expertise in <span className="text-blue-300 font-semibold">Python</span>, {" "}
-          <span className="text-green-300 font-semibold">Excel</span>, {" "}
-          <span className="text-blue-400 font-semibold">SQL</span>, {" "}
-          <span className="text-yellow-300 font-semibold">PowerBI</span> {" "}
-          and <span className="text-blue-500 font-semibold">Tableau</span>.
-          I enjoy creating data visualisation using these technologies.
-          With experience in{" "}
-          <span className="text-blue-400 font-semibold">MySQL</span>, and {" "}
-          <span className="text-green-400 font-semibold">MongoDB</span>,{" "}
-          I am comfortable managing both local and cloud databases.
-          I am building my skills in data analysis and visualization through various projects and coursework.
+          I am an aspiring <span className="font-semibold text-yellow-400">Data Analyst</span> and <span className="font-semibold text-yellow-400">QA Engineer</span> 
+          focusing on delivering key outcomes, collaborating well with team-based software projects in the field of data analysis and software development, 
+          with experience working in Python, Java, Excel, PowerBI, Tableau and QA Testing. 
         </p>
+
         <p className="text-gray-200 text-base sm:text-lg leading-relaxed mb-6">
-          Currently, I am pursuing my Bachelor's in Computer Applications at{" "}
-          <span className="font-semibold text-yellow-400">Christ University, Bangalore</span>.
-          Here, you can look at my projects in the <a href="#projects" className="text-blue-400 underline">Projects Section</a>.
-          I have an internship experience working as a Software Developer at{" "}
-          <span className="font-semibold text-yellow-400">Christ Incubation and Consultancy Foundation (CICF)</span>,
-          prototyping SOCIO, an event registration platform (mobile app).
+          Currently, I am pursuing my Bachelor's of Computer Applications (BCA) at{" "} <span className="font-semibold text-yellow-400">Christ University, Bangalore</span>, 
+          where I have developed a strong foundation in computer science principles and practical skills.
+          I have experience working as a Mobile App Developer Intern at{" "} <span className="font-semibold text-yellow-400">Christ Incubation and Consultancy Foundation (CICF)</span>,
+          prototyping <span className="font-semibold text-yellow-400">SOCIO</span>, an event registration platform (mobile app). I am also a <span className="font-semibold text-yellow-400">Co-Founder</span> of{" "}
+          <span className="font-semibold text-yellow-400">CampusHero</span>, a student-led initiative aimed at enhancing campus life 
+          through management of student issues and reporting them through online based Mentor-Mentee sessions which are usually conducted offline, helping both students and teachers reduce their workload in performing these sessions offline.
         </p>
 
         {/* Expertise */}
@@ -56,6 +47,8 @@ function AboutMe() {
             <div className="flex flex-wrap gap-3">
               {[
                 "Python Programming",
+                "Java Programming",
+                "Testing & Quality Assurance",
                 "Microsoft Excel & Google Sheets",
                 "Exploratory Data Analysis (EDA)",
                 "SQL & NoSQL Databases",
@@ -72,7 +65,7 @@ function AboutMe() {
 
           {/* Social Links */}
           <div>
-            <h3 className="text-xl sm:text-2xl text-white font-semibold mt-4 mb-2">
+            <h3 className="text-xl sm:text-2xl text-white font-semibold mt-8 mb-2">
               Social Links
             </h3>
 

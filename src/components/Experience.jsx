@@ -7,7 +7,7 @@ function Experience() {
       id: 1,
       title: "Software Developer - SOCIO - CHRIST Incubation Centre",
       description:
-        "Built both mobile and web full-stack apps (prototypes) for online event registration at CHRIST Central Campus. Developed a mobile app using Flutter. Integrated backend using Node.js and Supabase (PostgreSQL). Deployed backend server at Render. Also commited few contributions towards the web app using Next.js and Tailwind CSS for seamless user experience, maintained documents for this software project by working for a real-world startup-based project.",
+        "Built a mobile full-stack app (prototype) for online event registration at CHRIST Central Campus using Flutter. Integrated backend using Node.js and Supabase (PostgreSQL). Deployed backend server at Render. Also commited few contributions towards the web app using Next.js and Tailwind CSS for seamless user experience, maintained documents for this software project by working for a real-world startup-based project.",
     },
     {
       id: 2,
