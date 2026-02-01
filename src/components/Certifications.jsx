@@ -47,16 +47,16 @@ const Certifications = () => {
           Highlights of my certifications and courses completed.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 p-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {certificationsData.map((cer, index) => (
             <div
               key={index}
-              className="bg-gray-900/50 rounded-2xl p-6"
+              className="bg-blue-900/60 rounded-2xl p-6"
             >
-              <h2 className="text-xl font-semibold text-blue-400 mb-4">
+              <h2 className="text-xl font-semibold text-yellow-300 mb-4">
                 {cer.title}
               </h2>
-              <h3 className="text-gray-300 text-right text-yellow-300 font-medium mb-1">
+              <h3 className="text-gray-300 text-right text-white font-medium mb-1">
                 - {cer.institution}
               </h3>
             </div>

@@ -84,20 +84,20 @@ function Achievements() {
         </header>
 
         {/* Experience Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-18">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
           {achievements.map((ach) => (
             <div
               key={ach.id}
-              className="bg-gray-900/50 rounded-2xl shadow-md"
+              className="bg-blue-900/60 rounded-2xl shadow-md"
             >
               <div className="p-8">
                 <div className="flex items-center gap-3 mb-4">
-                  <h3 className="text-xl font-semibold text-blue-500 leading-snug">
+                  <h3 className="text-xl font-semibold text-yellow-300 leading-snug">
                     {ach.title}
                   </h3>
                 </div>
 
-                <p className="text-white leading-relaxed">{ach.description}</p>
+                <p className="text-white">{ach.description}</p>
 
                 <div className="mt-5 h-0.5 w-0 bg-blue-500 transition-all duration-500 group-hover:w-full"></div>
               </div>

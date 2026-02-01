@@ -24,7 +24,7 @@ function AboutMe() {
         </h2>
 
         <p className="text-gray-200 text-base sm:text-lg leading-relaxed mb-6">
-          I am an aspiring <span className="font-semibold text-yellow-400">Data Analyst</span> and <span className="font-semibold text-yellow-400">QA Engineer</span> 
+          I am an aspiring {" "} <span className="font-semibold text-yellow-400">Data Analyst</span> and {" "} <span className="font-semibold text-yellow-400">QA Engineer</span>, 
           focusing on delivering key outcomes, collaborating well with team-based software projects in the field of data analysis and software development, 
           with experience working in Python, Java, Excel, PowerBI, Tableau and QA Testing. 
         </p>
@@ -33,9 +33,10 @@ function AboutMe() {
           Currently, I am pursuing my Bachelor's of Computer Applications (BCA) at{" "} <span className="font-semibold text-yellow-400">Christ University, Bangalore</span>, 
           where I have developed a strong foundation in computer science principles and practical skills.
           I have experience working as a Mobile App Developer Intern at{" "} <span className="font-semibold text-yellow-400">Christ Incubation and Consultancy Foundation (CICF)</span>,
-          prototyping <span className="font-semibold text-yellow-400">SOCIO</span>, an event registration platform (mobile app). I am also a <span className="font-semibold text-yellow-400">Co-Founder</span> of{" "}
-          <span className="font-semibold text-yellow-400">CampusHero</span>, a student-led initiative aimed at enhancing campus life 
-          through management of student issues and reporting them through online based Mentor-Mentee sessions which are usually conducted offline, helping both students and teachers reduce their workload in performing these sessions offline.
+          prototyping <span className="font-semibold text-yellow-400">SOCIO</span>, an online-based event registration platform at Christ Central Campus. I am also a{" "}
+          <span className="font-semibold text-yellow-400">Co-Founder</span> of{" "} <span className="font-semibold text-yellow-400">CampusHero</span>, a student-led initiative aimed at enhancing 
+          campus life through management of student issues and reporting them through online based Mentor-Mentee sessions which are usually conducted offline, helping both students and 
+          teachers reduce their workload in performing these sessions offline.
         </p>
 
         {/* Expertise */}
