@@ -9,7 +9,7 @@ function Heading() {
     { name: "Education", href: "#education" },
     { name: "Projects", href: "#projects" },
     { name: "Certifications", href: "#certifications" },
-    { name: "Achievements", href: "#achievements" }
+    { name: "OtherActivities", href: "#other-activities" }
   ];
 
   const linkStyle =
