@@ -11,12 +11,6 @@ function Experience() {
     },
     {
       id: 2,
-      title: "Hospitality Volunteer - Industry Academia Nexus 2025 - School of Sciences",
-      description:
-        "Managed hospitality services to the chief guests who had arrived from various companies like Tech Mahindra, IBM Chennai, Tata Power Solar, and more. Managed eateries and refreshments for the guests during the event. Coordinated with hospitality team members to ensure smooth functioning of hospitality services during the event.",
-    },
-    {
-      id: 3,
       title: "Co-Founder at CampusHero",
       description:
         "Co-founded CampusHero, a student-led initiative aimed at enhancing campus life through management of student issues and reporting them through online based Mentor-Mentee sessions.",
@@ -37,7 +31,7 @@ function Experience() {
         </header>
 
         {/* Experience Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-14">
           {experiences.map((exp, index) => (
             <div
               key={exp.id}
