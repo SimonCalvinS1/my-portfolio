@@ -63,7 +63,7 @@ const Certifications = () => {
           ))}
         </div>
       </div>
-      <p id="achievements"></p>
+      <p id="other-activities"></p>
     </div>
   );
 };
