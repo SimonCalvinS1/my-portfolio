@@ -3,12 +3,12 @@ import React from "react";
 const Certifications = () => {
   const certificationsData = [
     {
-      title: "Introduction to Python",
-      institution: "Infosys Springboard",
-    },
-    {
       title : "Applied Database Systems 23ai",
       institution: "Oracle Academy",
+    },
+    {
+      title: "Introduction to Python",
+      institution: "Infosys Springboard",
     },
     {
       title: "CBIT Hackathon 2025",

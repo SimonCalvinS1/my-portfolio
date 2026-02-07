@@ -3,15 +3,15 @@ import React from "react";
 const Education = () => {
   const educationData = [
     {
-      title: "Bachelor's of Computer Applications",
-      institution: "Christ University, Bangalore",
+      title: "Bachelor of Computer Applications",
+      institution: "Christ University Central Campus, Hosur Road, Bangalore",
       duration: "June 2024 - Present",
       description:
         "Engaging in Computer Science with coursework in Web Development, Python and Java Programming.",
     },
     {
       title: "High School Education (Grades 5-12)",
-      institution: "St. Joseph's School (CBSE), Bangalore",
+      institution: "St. Joseph's School (CBSE), Vittal Mallya Road, Bangalore",
       duration: "June 2016 - May 2024",
       description:
         "Completed high school education in science as the major course in grades 11 and 12. I learned fundamental knowledge in mathematics, physics, chemistry and computer science.",

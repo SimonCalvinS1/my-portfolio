@@ -4,22 +4,22 @@ function OtherActivities() {
   const activites = [
     {
         id: 1,
-        title: "Grade 10 CBSE 2022 - English 100% Proficiency",
+        title: "Grade 10 CBSE (July 2022) - English 100% Proficiency",
         description:
           "Achieved 100% proficiency in English in the Grade 10 CBSE examinations, reflecting my strong command of the language and academic excellence.",
     },
     {
       id: 2,
-      title: "CBIT Hacktoberfest 2025 - Participant",
-      description:
-        "Participated in CBIT Hacktoberfest 2025, a one day online hackathon, developing a multi-vendor e-commerce website along with my teammates.",
-    },
-    {
-      id: 3,
-      title: "Hospitality Volunteer - Industry Academia Nexus 2025 - School of Sciences",
+      title: "Hospitality Volunteer (Feb 2025) - Industry Academia Nexus 2025 - School of Sciences",
       description:
         "Managed hospitality services to the chief guests who had arrived from various companies like Tech Mahindra, IBM Chennai, Tata Power Solar, and more. Managed eateries and refreshments for the guests during the event. Coordinated with hospitality team members to ensure smooth functioning of hospitality services during the event.",
     },
+    {
+      id: 3,
+      title: "CBIT Hacktoberfest (Oct 2025) - Participant",
+      description:
+        "Participated in CBIT Hacktoberfest 2025, a one day online hackathon, developing a multi-vendor e-commerce website along with my teammates.",
+    }
   ];
 
   return (

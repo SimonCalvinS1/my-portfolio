@@ -42,21 +42,18 @@ function AboutMe() {
         {/* Expertise */}
         <div className="mb-8">
             <h3 className="text-xl sm:text-2xl text-white font-semibold mb-4">
-              My Areas of Expertise
+              My Area of Expertise
             </h3>
 
             <div className="flex flex-wrap gap-3">
               {[
-                "Python Programming",
-                "Java Programming",
-                "Testing & Quality Assurance",
-                "Microsoft Excel & Google Sheets",
-                "Exploratory Data Analysis (EDA)",
-                "SQL & NoSQL Databases",
-                "PowerBI & Tableau",
-                "Data Structures & Algorithms",
                 "Cross-Team Collaboration",
                 "Critical Thinking",
+                "Python Programming",
+                "QA & Manual Testing",
+                "Exploratory Data Analysis (EDA)",
+                "SQL & NoSQL Databases",
+                "Excel & PowerBI"
               ].map(skill => (
                 <span key={skill} className={skillStyling}>
                   {skill}
