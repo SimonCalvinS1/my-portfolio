@@ -5,10 +5,10 @@ function Footer() {
     "text-white text-center hover:text-gray-400 transition";
 
   const headingStyle =
-    "text-lg font-semibold mb-3 text-blue-500";
+    "text-2xl font-semibold mb-3 text-blue-300";
 
   return (
-    <footer className="bg-[#141414] backdrop-blur">
+    <footer className="bg-[#000000] backdrop-blur">
       <div className="max-w-7xl mx-auto px-6 py-10">
         
         {/* Top Sections */}

@@ -7,52 +7,54 @@ const Education = () => {
       institution: "Christ University Central Campus, Hosur Road, Bangalore",
       duration: "June 2024 - Present",
       description:
-        "Engaging in Computer Science with coursework in Web Development, Python and Java Programming.",
+        "Engaging in Computer Science with coursework in Python, Java, Discrete Mathematics, Graph Theory, SQL and NoSQL.",
     },
     {
       title: "High School Education (Grades 5-12)",
       institution: "St. Joseph's School (CBSE), Vittal Mallya Road, Bangalore",
       duration: "June 2016 - May 2024",
       description:
-        "Completed high school education in science as the major course in grades 11 and 12. I learned fundamental knowledge in mathematics, physics, chemistry and computer science.",
+        "Completed high school education in science as the major course in grades 11 and 12.",
     },
     {
       title: "Primary Education (Grades KG-4)",
-      institution: "Cambridge School, KH Road, Bangalore",
+      institution: "Cambridge School, Double Road, Bangalore",
       duration: "June 2010 - May 2016",
       description:
-        "Basic school level education with focus on holistic development, academics, etc.",
+        "Basic school level education from grades KG-4, with focus on academic, languages and holistic education and development.",
     },
   ];
 
   return (
-    <div className="py-16">
+    <section className="py-20">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <header className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-blue-400 mb-3">
+          <h2 className="text-4xl font-bold text-blue-300 mb-4">
             Education
           </h2>
-          <p className="text-white text-lg">
+          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             A summary of my academic background and qualifications.
           </p>
         </header>
 
         {/* Education Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {educationData.map((edu, index) => (
             <div
               key={index}
-              className="bg-blue-900/60 rounded-2xl shadow-m p-6"
+              className="bg-blue-900/50 border border-blue-700/50 rounded-lg p-6 hover:bg-blue-900/70 hover:border-blue-600 transition-all duration-300 hover:shadow-lg"
             >
-              <h2 className="text-xl font-semibold text-yellow-300 mb-1">
+              <h2 className="text-xl font-semibold text-blue-200 mb-2">
                 {edu.title}
               </h2>
-              <h3 className="text-gray-200 font-medium mb-1">
-                {edu.institution}
-              </h3>
-              <p className="text-gray-400 mb-3">{edu.duration}</p>
-              <p className="text-gray-300 leading-relaxed text-[15px]">
+              <p className="text-gray-400 text-sm mb-3">{edu.duration}</p>
+              <div className="border-t border-blue-700/30 pt-4 mb-4">
+                <h3 className="text-gray-400 font-medium text-sm mb-2">
+                  {edu.institution}
+                </h3>
+              </div>
+              <p className="text-gray-300 leading-relaxed text-sm">
                 {edu.description}
               </p>
             </div>
@@ -60,7 +62,7 @@ const Education = () => {
         </div>
       </div>
       <p id="projects"></p>
-    </div>
+    </section>
   );
 };
 

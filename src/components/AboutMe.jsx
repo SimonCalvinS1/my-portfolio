@@ -3,7 +3,7 @@ import { Linkedin, Github, LucideCodeXml } from "lucide-react";
 
 function AboutMe() {
   const skillStyling =
-    "px-4 py-1.5 bg-blue-600 text-white rounded-full text-sm font-medium hover:bg-blue-700 transition";
+    "px-4 py-1.5 bg-blue-700 text-white rounded-full text-sm font-medium hover:bg-blue-700 transition";
 
   return (
     <section id="about" className="py-20 overflow-x-hidden">
@@ -11,7 +11,7 @@ function AboutMe() {
 
         {/* Heading */}
         <div className="text-center mb-15">
-          <h1 className="text-2xl sm:text-3xl font-bold text-blue-400 mb-3">
+          <h1 className="text-4xl font-bold text-blue-300 mb-3">
             About Me
           </h1>
           <p className="text-gray-300 text-base sm:text-lg max-w-3xl mx-auto">
@@ -24,17 +24,17 @@ function AboutMe() {
         </h2>
 
         <p className="text-gray-200 text-base sm:text-lg leading-relaxed mb-6">
-          I am an aspiring {" "} <span className="font-semibold text-yellow-400">Data Analyst</span> and {" "} <span className="font-semibold text-yellow-400">QA Engineer</span>, 
-          focusing on delivering key outcomes, collaborating well with team-based software projects in the field of data analysis and software development, 
-          with experience working in Python, Java, Excel, PowerBI, Tableau and QA Testing. 
+          I am a {" "} <span className="font-semibold text-blue-300">Data Analyst</span> and {" "} <span className="font-semibold text-blue-300">QA Engineer</span>, 
+          focusing on collaborating well with software projects in the field of data analysis and quality assurance, 
+          with experience working in Python, SQL, R and QA Testing. 
         </p>
 
         <p className="text-gray-200 text-base sm:text-lg leading-relaxed mb-6">
-          Currently, I am pursuing my Bachelor's of Computer Applications (BCA) at{" "} <span className="font-semibold text-yellow-400">Christ University, Bangalore</span>, 
+          Currently, I am pursuing my Bachelor's of Computer Applications (BCA) at{" "} <span className="font-semibold text-blue-300">Christ University, Bangalore</span>, 
           where I have developed a strong foundation in computer science principles and practical skills.
-          I have experience working as a Mobile App Developer Intern at{" "} <span className="font-semibold text-yellow-400">Christ Incubation and Consultancy Foundation (CICF)</span>,
-          prototyping <span className="font-semibold text-yellow-400">SOCIO</span>, an online-based event registration platform at Christ Central Campus. I am also a{" "}
-          <span className="font-semibold text-yellow-400">Co-Founder</span> of{" "} <span className="font-semibold text-yellow-400">CampusHero</span>, a student-led initiative aimed at enhancing 
+          I have experience working as an App Developer Intern at{" "} <span className="font-semibold text-blue-300">Christ Incubation and Consultancy Foundation (CICF)</span>,
+          prototyping Socio, an online-based event registration platform at Christ Central Campus. I am also a{" "}
+          <span className="font-semibold text-blue-300">Co-Founder</span> of CampusHero, a student-led initiative aimed at enhancing 
           campus life through management of student issues and reporting them through online based Mentor-Mentee sessions which are usually conducted offline, helping both students and 
           teachers reduce their workload in performing these sessions offline.
         </p>
@@ -49,11 +49,12 @@ function AboutMe() {
               {[
                 "Cross-Team Collaboration",
                 "Critical Thinking",
+                "Problem Solving",
                 "Python Programming",
-                "QA & Manual Testing",
+                "R Programming",
+                "Data Visualization",
                 "Exploratory Data Analysis (EDA)",
-                "SQL & NoSQL Databases",
-                "Excel & PowerBI"
+                "SQL & NoSQL Databases"
               ].map(skill => (
                 <span key={skill} className={skillStyling}>
                   {skill}
@@ -90,7 +91,7 @@ function AboutMe() {
                 href="https://leetcode.com/u/SimonCalvinS"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-orange-400 hover:text-orange-600"
+                className="flex items-center gap-2 text-yellow-400 hover:text-yellow-600"
               >
                 <LucideCodeXml className="w-5 h-5" /> LeetCode
               </a>

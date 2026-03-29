@@ -23,34 +23,30 @@ function OtherActivities() {
   ];
 
   return (
-    <section className="py-6 mt-4">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="py-20">
+      <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <header className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-blue-400 mb-3">
+          <h2 className="text-4xl font-bold text-blue-300 mb-4">
             Other Activities
           </h2>
-          <p className="text-white text-lg">
+          <p className="text-gray-300 text-lg max-w-2xl mx-auto">
             Highlights of my accomplishments and contributions.
           </p>
         </header>
 
-        {/* Experience Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
+        {/* Activities Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {activites.map((ac) => (
             <div
               key={ac.id}
-              className="bg-blue-900/60 rounded-2xl shadow-md"
+              className="bg-blue-900/50 border border-blue-700/50 rounded-lg p-6 hover:bg-blue-900/70 hover:border-blue-600 transition-all duration-300 hover:shadow-lg"
             >
-              <div className="p-8">
-                <div className="flex items-center gap-3 mb-4">
-                  <h3 className="text-xl font-semibold text-yellow-300 leading-snug">
-                    {ac.title}
-                  </h3>
-                </div>
-
-                <p className="text-white">{ac.description}</p>
-                <div className="mt-5 h-0.5 w-0 bg-blue-500 transition-all duration-500 group-hover:w-full"></div>
+              <h3 className="text-xl font-semibold text-blue-200 mb-4">
+                {ac.title}
+              </h3>
+              <div className="border-t border-blue-700/30 pt-4">
+                <p className="text-gray-300 leading-relaxed">{ac.description}</p>
               </div>
             </div>
           ))}
