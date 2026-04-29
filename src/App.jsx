@@ -1,5 +1,6 @@
 import Heading from './components/Heading';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Education from './components/Education';
@@ -13,6 +14,7 @@ function App() {
       <Heading />
       <main className="w-full px-4 py-10">
         <AboutMe />
+        <Skills />
         <Experience />
         <Education />
         <Projects />

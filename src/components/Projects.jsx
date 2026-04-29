@@ -10,7 +10,7 @@ function Projects() {
     },
     {
       id: 2,
-      title: "CampusHero - Online Mentor-Mentee (Ongoing)",
+      title: "MentorVerse (previously CampusHero) - Online Mentor-Mentee (Ongoing)",
       description: "Co-founded a student-led initiative platform at Department of Computer Science, Christ (Deemed to be University), aimed at enhancing campus life through management of student issues and reporting them through online based Mentor-Mentee sessions.",
       tech: ["React", "Tailwind CSS"]
     },
@@ -26,22 +26,22 @@ function Projects() {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-6">
         <header className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-blue-300 mb-4">My Projects</h2>
-          <p className="text-gray-300 text-lg max-w-2xl mx-auto">Here are my projects and work in progress, showcasing my skills and experience.</p>
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">My Projects</h2>
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">Here are my projects and work in progress, showcasing my skills and experience.</p>
         </header>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project) => (
-            <div key={project.id} className="bg-blue-900/50 border border-blue-700/50 rounded-lg hover:bg-blue-900/70 hover:border-blue-600 transition-all duration-300 hover:shadow-lg flex flex-col">
+            <div key={project.id} className="bg-blue-500 border border-blue-700/50 rounded-lg hover:bg-blue-600 hover:border-blue-300 transition-all duration-300 hover:shadow-lg flex flex-col">
               <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-semibold text-blue-200 mb-3">{project.title}</h3>
+                <h3 className="text-xl font-semibold text-white mb-3">{project.title}</h3>
                 
                 {/* Tech Stack */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech, index) => (
                     <span 
                       key={index}
-                      className="px-3 py-1 bg-blue-800/60 text-blue-200 text-xs font-medium rounded border border-blue-600/50 hover:bg-blue-800 transition-colors"
+                      className="px-3 py-1 bg-blue-700 text-white text-xs font-medium rounded border border-blue-600/50 hover:bg-blue-800 transition-colors"
                     >
                       {tech}
                     </span>
@@ -49,10 +49,10 @@ function Projects() {
                 </div>
                 
                 {/* Divider */}
-                <div className="border-t border-blue-700/30 pt-4 mb-4" />
+                <div className="border-t border-white pt-4 mb-2" />
                 
                 {/* Description */}
-                <p className="text-gray-300 leading-relaxed text-sm flex-grow">{project.description}</p>
+                <p className="text-white leading-relaxed text-sm flex-grow">{project.description}</p>
               </div>
             </div>
           ))}
