@@ -40,13 +40,13 @@ function OtherActivities() {
           {activites.map((ac) => (
             <div
               key={ac.id}
-              className="bg-blue-500 border border-blue-700/50 rounded-lg p-6 hover:bg-blue-600 hover:border-blue-600 transition-all duration-300 hover:shadow-lg"
+              className="bg-white border border-teal-400 rounded-lg p-6 hover:border-teal-600 transition-all duration-300 hover:shadow-lg"
             >
-              <h3 className="text-xl font-semibold text-white mb-4">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">
                 {ac.title}
               </h3>
-              <div className="border-t border-white pt-4">
-                <p className="text-white leading-relaxed">{ac.description}</p>
+              <div className="border-t border-gray-300 pt-4">
+                <p className="text-gray-600 leading-relaxed">{ac.description}</p>
               </div>
             </div>
           ))}

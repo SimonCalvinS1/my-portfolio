@@ -21,10 +21,10 @@ const Certifications = () => {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         {/* Section Header */}
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">
+        <h2 className="text-5xl font-bold text-center text-black mb-4">
           My Certifications
         </h2>
         <p className="text-gray-600 text-center text-lg mb-12 max-w-2xl mx-auto">
@@ -36,13 +36,13 @@ const Certifications = () => {
           {certificationsData.map((cer, index) => (
             <div
               key={index}
-              className="bg-blue-500 border border-blue-700/50 rounded-lg p-6 hover:bg-blue-600 hover:border-blue-600 transition-all duration-300 hover:shadow-lg"
+              className="bg-white border border-gray-200 rounded-lg p-6 hover:border-teal-500 hover:shadow-lg transition-all duration-300 group"
             >
-              <h3 className="text-xl font-semibold text-white mb-3">
+              <h3 className="text-xl font-semibold text-black mb-3">
                 {cer.title}
               </h3>
-              <div className="border-t border-white pt-4">
-                <p className="text-white text-sm">
+              <div className="border-t border-gray-200 pt-4">
+                <p className="text-gray-600 text-sm">
                   {cer.institution}
                 </p>
               </div>

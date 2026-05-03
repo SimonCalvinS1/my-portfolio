@@ -26,11 +26,11 @@ const Education = () => {
   ];
 
   return (
-    <section className="py-20">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <header className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">
+          <h2 className="text-5xl font-bold text-black mb-4">
             Education
           </h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -43,18 +43,18 @@ const Education = () => {
           {educationData.map((edu, index) => (
             <div
               key={index}
-              className="bg-blue-500 border border-blue-700/50 rounded-lg p-6 hover:bg-blue-600 hover:border-blue-300 transition-all duration-300 hover:shadow-lg"
+              className="bg-white border border-gray-200 rounded-lg p-6 hover:border-teal-500 hover:shadow-lg transition-all duration-300 group"
             >
-              <h2 className="text-xl font-semibold text-white mb-2">
+              <h2 className="text-xl font-semibold text-black mb-2">
                 {edu.title}
               </h2>
-              <p className="text-white text-sm mb-3">{edu.duration}</p>
-              <div className="border-t border-white pt-4 mb-4">
-                <h3 className="text-white font-medium text-sm mb-2">
+              <p className="text-gray-500 text-sm mb-3">{edu.duration}</p>
+              <div className="border-t border-gray-200 pt-4 mb-4">
+                <h3 className="text-gray-700 font-medium text-sm mb-2">
                   {edu.institution}
                 </h3>
               </div>
-              <p className="text-white leading-relaxed text-sm">
+              <p className="text-gray-600 leading-relaxed text-sm">
                 {edu.description}
               </p>
             </div>

@@ -2,13 +2,13 @@ import React from "react";
 
 function Footer() {
   const linkStyle =
-    "text-white text-center hover:text-gray-400 transition";
+    "text-black text-center hover:text-gray-600 transition";
 
   const headingStyle =
-    "text-2xl font-semibold mb-3 text-blue-300";
+    "text-2xl font-semibold mb-3 text-black";
 
   return (
-    <footer className="bg-[#000000] backdrop-blur">
+    <footer className="bg-white border-b border-gray-200 border-t border-gray-300">
       <div className="max-w-7xl mx-auto px-6 py-10">
         
         {/* Top Sections */}
@@ -17,7 +17,7 @@ function Footer() {
           {/* Contact */}
           <div>
             <h3 className={headingStyle}>Contact</h3>
-            <p className="text-white text-center">
+            <p className="text-black text-center">
               simoncalvin9b@gmail.com
             </p>
           </div>
@@ -25,7 +25,7 @@ function Footer() {
           {/* Social Links */}
           <div>
             <h3 className={headingStyle}>Social Links</h3>
-            <nav className="flex justify-center md:justify-center gap-4 text-white">
+            <nav className="flex justify-center md:justify-center gap-4 text-black">
               <a
                 href="https://www.linkedin.com/in/simon-calvin-s"
                 target="_blank"
@@ -59,10 +59,10 @@ function Footer() {
             <nav className="flex justify-center md:justify-center gap-4 text-white">
               <a href="#about" className={linkStyle}>
                 About
-              </a> |
+              </a>
               <a href="#projects" className={linkStyle}>
                 Projects
-              </a> |
+              </a>
               <a href="#experience" className={linkStyle}>
                 Experience
               </a>
