@@ -3,7 +3,7 @@ import { Linkedin, Github, LucideCodeXml } from "lucide-react";
 
 function AboutMe() {
   const skillStyling =
-    "px-4 py-1.5 bg-teal-200 text-teal-800 rounded-full text-sm font-bold border border-teal-300 hover:bg-teal-200 transition";
+    "px-4 py-1.5 bg-teal-100 text-teal-700 rounded-full text-sm font-bold border border-teal-300 hover:bg-teal-200 transition";
 
   return (
     <section id="about" className="py-22 overflow-x-hidden bg-white">
@@ -24,17 +24,20 @@ function AboutMe() {
         </h2>
 
         <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-6">
-          I am a {" "} <span className="font-bold text-teal-600">Data Analyst</span> and {" "} <span className="font-bold text-teal-600">QA Engineer</span>, 
-          focusing on collaborating well with software projects in the field of data analysis and quality assurance, 
-          with experience working in Python, Java, PostgreSQL, MySQL and MongoDB. 
+          I am a {" "} <span className="font-bold text-teal-600">Data Analyst</span> {" "}
+          focusing on collecting, analysing and interpreting data to help make informed and careful decisions. 
+          I have a strong passion for data-driven insights and problem-solving, and 
+          I am proficient in various data analysis tools and techniques with my expertise in Python, SQL, PowerBI and Tableau. 
+          Along with data analytics, I also have experience in {" "} <span className="font-bold text-teal-600">Quality Assurance</span> {" "}
+          and have worked on developing, testing and ensuring the quality of software applications, contributing to the development of robust and reliable solutions.
         </p>
 
         <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-6">
           Currently, I am pursuing my Bachelor's of Computer Applications (BCA) at{" "} <span className="font-bold text-teal-600">Christ University, Bangalore</span>, 
           where I have developed a strong foundation in computer science principles and practical skills.
-          I have experience working as an App Developer Intern at{" "} <span className="font-bold text-teal-600">Christ Incubation and Consultancy Foundation (CICF)</span>,
-          prototyping Socio, an online-based event registration platform at Christ Central Campus. I am also a{" "}
-          <span className="font-bold text-teal-600">Co-Founder</span> of CampusHero, a student-led initiative aimed at enhancing 
+          I have experience working as an App Developer Intern at Christ Incubation and Consultancy Foundation (CICF),
+          prototyping <span className="font-bold text-teal-600">Socio</span>, an online-based event registration platform at Christ Central Campus. 
+          I am a Co-Founder of CampusHero, a student-led initiative aimed at enhancing 
           campus life through management of student issues and reporting them through online based Mentor-Mentee sessions which are usually conducted offline, helping both students and 
           teachers reduce their workload in performing these sessions offline.
         </p>
@@ -47,14 +50,14 @@ function AboutMe() {
 
             <div className="flex flex-wrap gap-3">
               {[
-                "Cross-Team Collaboration",
-                "Critical Thinking",
-                "Problem Solving",
-                "Python Programming",
-                "Java Programming",
-                "Data Visualization",
+                "Python",
                 "Exploratory Data Analysis (EDA)",
-                "SQL & NoSQL Databases"
+                "SQL",
+                "NoSQL",
+                "Tableau",
+                "PowerBI",
+                "Critical Thinking",
+                "Cross-Team Collaboration"
               ].map(skill => (
                 <span key={skill} className={skillStyling}>
                   {skill}

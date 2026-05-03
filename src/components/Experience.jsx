@@ -4,13 +4,13 @@ function Experience() {
   const experiences = [
     {
       id: 1,
-      title: "Mobile App Developer Intern - SOCIO - CHRIST Incubation Centre",
+      title: "App Developer Intern - SOCIO - CHRIST Incubation Centre",
       description:
         "Built a prototype app for online event registration at Christ Central Campus using Flutter, Node.js and Supabase (PostgreSQL). Deployed backend server at Render and maintained documentation.",
     },
     {
       id: 2,
-      title: "Co-Founder, Full Stack Engineer at CampusHero",
+      title: "Co-Founder, Full Stack Engineer at MentorVerse (previously CampusHero)",
       description:
         "Co-founded a student-led initiative platform at Department of Computer Science, CHRIST (Deemed to be University), aimed at enhancing campus life through management of student issues and reporting them through online based Mentor-Mentee sessions.",
     },

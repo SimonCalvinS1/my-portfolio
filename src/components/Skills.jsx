@@ -5,7 +5,7 @@ function Skills() {
     {
       name: "Python",
       level: "Expert",
-      description: "Advanced proficiency in Python for data analysis, web development, and scripting",
+      description: "Advanced proficiency in Python for data analysis and scripting",
     },
     {
       name: "SQL",
@@ -23,9 +23,9 @@ function Skills() {
       description: "Creating interactive data visualizations and dashboards with Tableau",
     },
     {
-      name: "Blogging",
+      name: "PowerBI",
       level: "Intermediate",
-      description: "Proficient in creating engaging content and managing blog platforms",
+      description: "Creating interactive data visualizations and dashboards with PowerBI",
     }
   ];
 
@@ -72,7 +72,7 @@ function Skills() {
                 <div 
                   className="h-full bg-gradient-to-r from-teal-500 to-teal-400 rounded-full transition-all duration-500 group-hover:from-teal-600 group-hover:to-teal-500"
                   style={{
-                    width: skill.level === "Expert" ? "95%" : skill.level === "Advanced" ? "80%" : "70%"
+                    width: skill.level === "Expert" ? "90%" : skill.level === "Advanced" ? "80%" : skill.level === "Intermediate" ? "70%" : "45%"
                   }}
                 />
               </div>
@@ -93,12 +93,12 @@ function Skills() {
             </div>
             <div>
               <p className="text-gray-700 mb-3">
-                <span className="font-semibold text-black">Database:</span> PostgreSQL, MySQL, MongoDB, Supabase
+                <span className="font-semibold text-black">Database:</span> PostgreSQL (Supabase), MySQL, MongoDB
               </p>
             </div>
             <div>
               <p className="text-gray-700 mb-3">
-                <span className="font-semibold text-black">Tools & Platforms:</span> Git, GitHub, Figma, VS Code, Jupyter Notebook, Tableau
+                <span className="font-semibold text-black">Tools & Platforms:</span> Git Version Control, Figma, VS Code, Jupyter Notebook
               </p>
             </div>
           </div>

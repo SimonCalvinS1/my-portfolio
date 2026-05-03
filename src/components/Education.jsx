@@ -7,14 +7,14 @@ const Education = () => {
       institution: "Christ University Central Campus, Hosur Road, Bangalore",
       duration: "June 2024 - Present",
       description:
-        "Engaging in Computer Science with coursework in Python, Java, Discrete Mathematics, Graph Theory, SQL and NoSQL.",
+        "Engaging in Computer Science with coursework in Python, SQL and NoSQL databases and data analytics. Actively involved in projects to apply theoretical knowledge in real-world scenarios.",
     },
     {
       title: "High School Education (Grades 5-12)",
       institution: "St. Joseph's School (CBSE), Vittal Mallya Road, Bangalore",
       duration: "June 2016 - May 2024",
       description:
-        "Completed high school education in science as the major course in grades 11 and 12.",
+        "Achieved 100/100 score in Grade 10 CBSE English examination, reflecting strong academic performance and language proficiency. Specialised in Science and Mathematics during grades 11-12, with a focus on Physics, Chemistry, Mathematics and Computer Science (PCMC).",
     },
     {
       title: "Primary Education (Grades KG-4)",
