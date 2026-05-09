@@ -3,7 +3,7 @@ import { Linkedin, Github, LucideCodeXml } from "lucide-react";
 
 function AboutMe() {
   const skillStyling =
-    "px-4 py-1.5 bg-teal-100 text-teal-700 rounded-full text-sm font-bold border border-teal-300 hover:bg-teal-200 transition";
+    "px-4 py-1.5 bg-[#154CB3] text-white rounded-full text-sm font-semibold hover:bg-[#0f3a8a] transition";
 
   return (
     <section id="about" className="py-22 overflow-x-hidden bg-white">
@@ -36,7 +36,7 @@ function AboutMe() {
           Currently, I am pursuing my Bachelor's of Computer Applications (BCA) at{" "} <span className="font-bold text-teal-600">Christ University, Bangalore</span>, 
           where I have developed a strong foundation in computer science principles and practical skills.
           I have experience working as an App Developer Intern at Christ Incubation and Consultancy Foundation (CICF),
-          prototyping <span className="font-bold text-teal-600">Socio</span>, an online-based event registration platform at Christ Central Campus. 
+          prototyping Socio, an online-based event registration platform at Christ Central Campus. 
           I am a Co-Founder of CampusHero, a student-led initiative aimed at enhancing 
           campus life through management of student issues and reporting them through online based Mentor-Mentee sessions which are usually conducted offline, helping both students and 
           teachers reduce their workload in performing these sessions offline.
@@ -56,6 +56,7 @@ function AboutMe() {
                 "NoSQL",
                 "Tableau",
                 "PowerBI",
+                "Manual Testing",
                 "Critical Thinking",
                 "Cross-Team Collaboration"
               ].map(skill => (

@@ -10,12 +10,18 @@ function Projects() {
     },
     {
       id: 2,
+      title: "Retail Analysis - Data Analysis (Ongoing)",
+      description: "Analyzed retail sales data to identify trends and patterns in Indian retail businesses.",
+      tech: ["Python", "Pandas"]
+    },
+    {
+      id: 3,
       title: "MentorVerse (previously CampusHero) - Online Mentor-Mentee (Ongoing)",
       description: "Co-founded a student-led initiative platform at Department of Computer Science, Christ (Deemed to be University), aimed at enhancing campus life through management of student issues and reporting them through online based Mentor-Mentee sessions.",
       tech: ["React", "Tailwind CSS"]
     },
     {
-      id: 3,
+      id: 4,
       title: "SOCIO - Event Registration App at CHRIST",
       description: "Built a prototype app for Socio, which is an online event registration at Christ Central Campus. Also commited few contributions towards the web app using Next.js and Tailwind CSS for seamless user experience, maintained documents for this software project by working for a real-world startup-based project.",
       tech: ["Documentation", "Figma", "Flutter", "Supabase"]
@@ -41,7 +47,7 @@ function Projects() {
                   {project.tech.map((tech, index) => (
                     <span 
                       key={index}
-                      className="px-3 py-1 bg-teal-100 text-teal-700 text-xs font-medium rounded border border-teal-300 hover:bg-teal-200 transition-colors"
+                      className="px-3 py-1 bg-[#154CB3] text-white text-xs font-medium rounded border border-[#154CB3] hover:bg-[#0f3a8a] transition-colors"
                     >
                       {tech}
                     </span>

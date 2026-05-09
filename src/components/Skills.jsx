@@ -54,7 +54,7 @@ function Skills() {
                 <h3 className="text-2xl font-bold text-black">
                   {skill.name}
                 </h3>
-                <span className="px-3 py-1 bg-teal-100 text-teal-700 text-xs font-semibold rounded border border-teal-300">
+                <span className="px-3 py-1 bg-[#154CB3] text-white text-xs font-semibold rounded border border-[#154CB3] hover:bg-[#0f3a8a] transition-colors">
                   {skill.level}
                 </span>
               </div>
@@ -70,7 +70,7 @@ function Skills() {
               {/* Visual proficiency indicator */}
               <div className="mt-4 h-2 bg-gray-200 rounded-full overflow-hidden">
                 <div 
-                  className="h-full bg-gradient-to-r from-teal-500 to-teal-400 rounded-full transition-all duration-500 group-hover:from-teal-600 group-hover:to-teal-500"
+                  className="h-full bg-gradient-to-r from-[#154CB3] to-[#0f3a8a] rounded-full transition-all duration-500 group-hover:from-[#0f3a8a] group-hover:to-[#0a2a66]"
                   style={{
                     width: skill.level === "Expert" ? "90%" : skill.level === "Advanced" ? "80%" : skill.level === "Intermediate" ? "70%" : "45%"
                   }}
@@ -81,7 +81,7 @@ function Skills() {
         </div>
 
         {/* Skills Summary */}
-        <div className="bg-gray-50 border border-gray-200 rounded-lg p-8">
+        <div className="bg-gray-100 border border-gray-200 rounded-lg p-8">
           <h3 className="text-2xl font-bold text-black mb-4">
             Additional Technologies & Tools
           </h3>
