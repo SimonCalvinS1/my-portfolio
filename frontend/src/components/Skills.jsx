@@ -1,33 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { apiService } from '../services/api.js';
 
 function Skills() {
-  const skillsData = [
-    {
-      name: "Python",
-      level: "Expert",
-      description: "Advanced proficiency in Python for data analysis and scripting",
-    },
-    {
-      name: "SQL",
-      level: "Advanced",
-      description: "Strong expertise in SQL based databases (PostgreSQL, MySQL) for database design, queries, and optimization",
-    },
-    {
-      name: "NoSQL",
-      level: "Intermediate",
-      description: "Proficient in NoSQL database (MongoDB) for flexible data storage and retrieval",
-    },
-    {
-      name: "Tableau",
-      level: "Intermediate",
-      description: "Creating interactive data visualizations and dashboards with Tableau",
-    },
-    {
-      name: "PowerBI",
-      level: "Intermediate",
-      description: "Creating interactive data visualizations and dashboards with PowerBI",
-    }
-  ];
+  const [skillsData, setSkillsData] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const fetchSkills = async () => {
+      setLoading(true);
+      const data = await apiService.getSkills();
+      if (data && data.length > 0) {
+        setSkillsData(data);
+      }
+      setLoading(false);
+    };
+    
+    fetchSkills();
+  }, []);
 
   return (
     <section className="py-20 bg-white">
@@ -78,30 +67,6 @@ function Skills() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Skills Summary */}
-        <div className="bg-gray-100 border border-gray-200 rounded-lg p-8">
-          <h3 className="text-2xl font-bold text-black mb-4">
-            Additional Technologies & Tools
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div>
-              <p className="text-gray-700 mb-3">
-                <span className="font-semibold text-black">Frontend:</span> React, Tailwind CSS, Vite
-              </p>
-            </div>
-            <div>
-              <p className="text-gray-700 mb-3">
-                <span className="font-semibold text-black">Database:</span> PostgreSQL (Supabase), MySQL, MongoDB
-              </p>
-            </div>
-            <div>
-              <p className="text-gray-700 mb-3">
-                <span className="font-semibold text-black">Tools & Platforms:</span> Git Version Control, Figma, VS Code, Jupyter Notebook
-              </p>
-            </div>
-          </div>
         </div>
       </div>
       <p id="experience"></p>

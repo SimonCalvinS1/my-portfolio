@@ -1,24 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { apiService } from '../services/api.js';
 
 const Certifications = () => {
-  const certificationsData = [
-    {
-      title : "Applied Database Systems 23ai",
-      institution: "Oracle Academy",
-    },
-    {
-      title: "CBIT Hackathon 2025",
-      institution: "Chaitanya Bharathi Institute of Technology, Hyderabad",
-    },
-    {
-      title: "GameCraft",
-      institution: "CHRIST (Deemed to be University)",
-    },
-    {
-      title: "Python Certification",
-      institution: "freeCodeCamp",
-    },
-  ];
+  const [certificationsData, setCertificationsData] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const fetchCertifications = async () => {
+      setLoading(true);
+      const data = await apiService.getCertifications();
+      if (data && data.length > 0) {
+        setCertificationsData(data);
+      }
+      setLoading(false);
+    };
+    
+    fetchCertifications();
+  }, []);
 
   return (
     <section className="py-20 bg-white">

@@ -3,7 +3,7 @@ import { Linkedin, Github, LucideCodeXml } from "lucide-react";
 
 function AboutMe() {
   const skillStyling =
-    "px-4 py-1.5 bg-[#154CB3] text-white rounded-full text-sm font-semibold hover:bg-[#0f3a8a] transition";
+    "px-4 py-1.5 bg-teal-100 text-teal-700 rounded-full text-sm font-semibold border border-teal-300 hover:bg-teal-200 transition";
 
   return (
     <section id="about" className="py-22 overflow-x-hidden bg-white">

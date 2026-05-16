@@ -1,29 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { apiService } from '../services/api.js';
 
 const Education = () => {
-  const educationData = [
-    {
-      title: "Bachelor of Computer Applications",
-      institution: "Christ University Central Campus, Hosur Road, Bangalore",
-      duration: "June 2024 - Present",
-      description:
-        "Engaging in Computer Science with coursework in Python, SQL and NoSQL databases and data analytics. Actively involved in projects to apply theoretical knowledge in real-world scenarios.",
-    },
-    {
-      title: "High School Education (Grades 5-12)",
-      institution: "St. Joseph's School (CBSE), Vittal Mallya Road, Bangalore",
-      duration: "June 2016 - May 2024",
-      description:
-        "Achieved 100/100 score in Grade 10 CBSE English examination, reflecting strong academic performance and language proficiency. Specialised in Science and Mathematics during grades 11-12, with a focus on Physics, Chemistry, Mathematics and Computer Science (PCMC).",
-    },
-    {
-      title: "Primary Education (Grades KG-4)",
-      institution: "Cambridge School, Double Road, Bangalore",
-      duration: "June 2010 - May 2016",
-      description:
-        "Basic school level education from grades KG-4, with focus on academic, languages and holistic education and development.",
-    },
-  ];
+  const [educationData, setEducationData] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const fetchEducation = async () => {
+      setLoading(true);
+      const data = await apiService.getEducation();
+      if (data && data.length > 0) {
+        setEducationData(data);
+      }
+      setLoading(false);
+    };
+    
+    fetchEducation();
+  }, []);
 
   return (
     <section className="py-20 bg-white">

@@ -1,20 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { apiService } from '../services/api.js';
 
 function Experience() {
-  const experiences = [
-    {
-      id: 1,
-      title: "App Developer Intern - SOCIO - CHRIST Incubation Centre",
-      description:
-        "Built a prototype app for online event registration at Christ Central Campus using Flutter, Node.js and Supabase (PostgreSQL). Deployed backend server at Render and maintained documentation.",
-    },
-    {
-      id: 2,
-      title: "Co-Founder, Full Stack Engineer at MentorVerse (previously CampusHero)",
-      description:
-        "Co-founded a student-led initiative platform at Department of Computer Science, CHRIST (Deemed to be University), aimed at enhancing campus life through management of student issues and reporting them through online based Mentor-Mentee sessions.",
-    },
-  ];
+  const [experiences, setExperiences] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const fetchExperiences = async () => {
+      setLoading(true);
+      const data = await apiService.getExperiences();
+      if (data && data.length > 0) {
+        setExperiences(data);
+      }
+      setLoading(false);
+    };
+    
+    fetchExperiences();
+  }, []);
 
   return (
     <section className="py-20 bg-white">
