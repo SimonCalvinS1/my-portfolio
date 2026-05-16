@@ -20,8 +20,12 @@ const MONGODB_URI = process.env.MONGODB_URI;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', process.env.CORS_ORIGIN],
-  credentials: true
+  origin: [
+    "http://localhost:5173",
+    process.env.CORS_ORIGIN
+  ],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: false
 }));
 app.use(express.json());
 
@@ -80,8 +84,14 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: 'Internal server error', error: err.message });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`Backend server running on http://localhost:${PORT}`);
-  console.log(`MongoDB URI: ${MONGODB_URI ? 'Connected' : 'Not configured'}`);
+app.use((req, res) => {
+  res.status(404).json({ error: 'Route not found' });
 });
+
+// Start server
+if (process.env.NODE_ENV !== "production") {
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+  });
+}

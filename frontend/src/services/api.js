@@ -1,11 +1,11 @@
 // API service for fetching portfolio data
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 export const apiService = {
   // Skills
   getSkills: async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/skills`);
+      const response = await fetch(`${API_BASE_URL}/api/skills`);
       if (!response.ok) throw new Error('Failed to fetch skills');
       return await response.json();
     } catch (error) {
@@ -17,7 +17,7 @@ export const apiService = {
   // Experience
   getExperiences: async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/experiences`);
+      const response = await fetch(`${API_BASE_URL}/api/experiences`);
       if (!response.ok) throw new Error('Failed to fetch experiences');
       return await response.json();
     } catch (error) {
@@ -29,7 +29,7 @@ export const apiService = {
   // Education
   getEducation: async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/education`);
+      const response = await fetch(`${API_BASE_URL}/api/education`);
       if (!response.ok) throw new Error('Failed to fetch education');
       return await response.json();
     } catch (error) {
@@ -41,7 +41,7 @@ export const apiService = {
   // Projects
   getProjects: async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/projects`);
+      const response = await fetch(`${API_BASE_URL}/api/projects`);
       if (!response.ok) throw new Error('Failed to fetch projects');
       return await response.json();
     } catch (error) {
@@ -53,7 +53,7 @@ export const apiService = {
   // Certifications
   getCertifications: async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/certifications`);
+      const response = await fetch(`${API_BASE_URL}/api/certifications`);
       if (!response.ok) throw new Error('Failed to fetch certifications');
       return await response.json();
     } catch (error) {
@@ -65,7 +65,7 @@ export const apiService = {
   // Activities
   getActivities: async () => {
     try {
-      const response = await fetch(`${API_BASE_URL}/activities`);
+      const response = await fetch(`${API_BASE_URL}/api/activities`);
       if (!response.ok) throw new Error('Failed to fetch activities');
       return await response.json();
     } catch (error) {
